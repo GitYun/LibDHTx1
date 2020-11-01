@@ -1,0 +1,2446 @@
+ASxxxx Linker V03.00 + NoICE + sdld,  page 1.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CABS                                00000000    00000000 =           0. bytes (ABS,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000000  l_BIT_BANK                      
+C:   00000000  l_CABS                          
+C:   00000000  l_GSINIT1                       
+C:   00000000  l_GSINIT5                       
+C:   00000000  l_IABS                          
+C:   00000000  l_ISEG                          
+C:   00000000  l_REG_BANK_1                    
+C:   00000000  l_REG_BANK_2                    
+C:   00000000  l_REG_BANK_3                    
+C:   00000000  l_RSEG                          
+C:   00000000  l_RSEG0                         
+C:   00000000  l_RSEG1                         
+C:   00000000  l_XABS                          
+C:   00000000  l_XINIT                         
+C:   00000000  l_XISEG                         
+C:   00000000  l_XSEG                          
+C:   00000000  l__CODE                         
+C:   00000000  s_BSEG                          
+C:   00000000  s_CABS                          
+C:   00000000  s_DSEG                          
+C:   00000000  s_HOME                          
+C:   00000000  s_IABS                          
+C:   00000000  s_ISEG                          
+C:   00000000  s_REG_BANK_0                    
+C:   00000000  s_RSEG                          
+C:   00000000  s_RSEG0                         
+C:   00000000  s_RSEG1                         
+C:   00000000  s_XABS                          
+C:   00000001  l_BSEG                          
+C:   00000001  l_BSEG_BYTES                    
+C:   00000001  s_PSEG                          
+C:   00000001  s_XISEG                         
+C:   00000001  s_XSEG                          
+C:   00000003  l_GSFINAL                       
+C:   00000003  l_GSINIT0                       
+C:   00000004  l_OSEG                          
+C:   00000008  l_REG_BANK_0                    
+C:   00000008  s_REG_BANK_1                    
+C:   0000000A  l_GSINIT2                       
+C:   0000000C  l_PSEG                          
+C:   0000000D  l_CONST                         
+C:   0000000E  l_GSINIT                        
+C:   00000010  s_REG_BANK_2                    
+C:   00000018  s_BIT_BANK                      
+C:   00000018  s_REG_BANK_3                    
+C:   0000001B  s_OSEG                          
+C:   00000020  s_BSEG_BYTES                    
+C:   00000020  s__CODE                         
+C:   00000022  l_GSINIT3                       
+C:   00000029  l_HOME                          
+ASxxxx Linker V03.00 + NoICE + sdld,  page 2.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CABS                                00000000    00000000 =           0. bytes (ABS,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000029  s_GSINIT0                       
+C:   0000002A  l_GSINIT4                       
+C:   0000002C  s_GSINIT1                       
+C:   0000002C  s_GSINIT2                       
+C:   00000036  s_GSINIT3                       
+C:   00000058  s_GSINIT4                       
+C:   00000058  s_SSEG                          
+C:   0000007F  l_DSEG                          
+C:   00000082  s_GSINIT                        
+C:   00000082  s_GSINIT5                       
+C:   00000090  s_GSFINAL                       
+C:   00000093  s_CSEG                          
+C:   000000A8  l_SSEG                          
+C:   00000100  l_IRAM                          
+C:   00000B1A  l_CSEG                          
+C:   00000BAD  s_CONST                         
+C:   00000BBA  s_XINIT                         
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 3.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000000  .__.ABS.                           _startup
+     00000080  G$P0$0_0$0                         Lib_DHTx1
+     00000080  G$P0_0$0_0$0                       Lib_DHTx1
+     00000080  _P0                                Lib_DHTx1
+     00000080  _P0_0                              Lib_DHTx1
+     00000081  G$P0_1$0_0$0                       Lib_DHTx1
+     00000081  G$SP$0_0$0                         Lib_DHTx1
+     00000081  _P0_1                              Lib_DHTx1
+     00000081  _SP                                Lib_DHTx1
+     00000082  G$DPL$0_0$0                        Lib_DHTx1
+     00000082  G$P0_2$0_0$0                       Lib_DHTx1
+     00000082  _DPL                               Lib_DHTx1
+     00000082  _P0_2                              Lib_DHTx1
+     00000083  G$DPH$0_0$0                        Lib_DHTx1
+     00000083  G$P0_3$0_0$0                       Lib_DHTx1
+     00000083  _DPH                               Lib_DHTx1
+     00000083  _P0_3                              Lib_DHTx1
+     00000084  G$P0_4$0_0$0                       Lib_DHTx1
+     00000084  _P0_4                              Lib_DHTx1
+     00000085  G$P0_5$0_0$0                       Lib_DHTx1
+     00000085  _P0_5                              Lib_DHTx1
+     00000086  G$P0_6$0_0$0                       Lib_DHTx1
+     00000086  _P0_6                              Lib_DHTx1
+     00000087  G$P0_7$0_0$0                       Lib_DHTx1
+     00000087  G$PCON$0_0$0                       Lib_DHTx1
+     00000087  _P0_7                              Lib_DHTx1
+     00000087  _PCON                              Lib_DHTx1
+     00000088  G$IT0$0_0$0                        Lib_DHTx1
+     00000088  G$TCON$0_0$0                       Lib_DHTx1
+     00000088  _IT0                               Lib_DHTx1
+     00000088  _TCON                              Lib_DHTx1
+     00000089  G$IE0$0_0$0                        Lib_DHTx1
+     00000089  G$TMOD$0_0$0                       Lib_DHTx1
+     00000089  _IE0                               Lib_DHTx1
+     00000089  _TMOD                              Lib_DHTx1
+     0000008A  G$IT1$0_0$0                        Lib_DHTx1
+     0000008A  G$TL0$0_0$0                        Lib_DHTx1
+     0000008A  _IT1                               Lib_DHTx1
+     0000008A  _TL0                               Lib_DHTx1
+     0000008B  G$IE1$0_0$0                        Lib_DHTx1
+     0000008B  G$TL1$0_0$0                        Lib_DHTx1
+     0000008B  _IE1                               Lib_DHTx1
+     0000008B  _TL1                               Lib_DHTx1
+     0000008C  G$TH0$0_0$0                        Lib_DHTx1
+     0000008C  G$TR0$0_0$0                        Lib_DHTx1
+     0000008C  _TH0                               Lib_DHTx1
+     0000008C  _TR0                               Lib_DHTx1
+     0000008D  G$TF0$0_0$0                        Lib_DHTx1
+     0000008D  G$TH1$0_0$0                        Lib_DHTx1
+     0000008D  _TF0                               Lib_DHTx1
+ASxxxx Linker V03.00 + NoICE + sdld,  page 4.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000008D  _TH1                               Lib_DHTx1
+     0000008E  G$AUXR$0_0$0                       Lib_DHTx1
+     0000008E  G$TR1$0_0$0                        Lib_DHTx1
+     0000008E  _AUXR                              Lib_DHTx1
+     0000008E  _TR1                               Lib_DHTx1
+     0000008F  G$TF1$0_0$0                        Lib_DHTx1
+     0000008F  G$WAKE_CLKO$0_0$0                  Lib_DHTx1
+     0000008F  _TF1                               Lib_DHTx1
+     0000008F  _WAKE_CLKO                         Lib_DHTx1
+     00000090  G$P1$0_0$0                         Lib_DHTx1
+     00000090  G$P1_0$0_0$0                       Lib_DHTx1
+     00000090  _P1                                Lib_DHTx1
+     00000090  _P1_0                              Lib_DHTx1
+     00000091  G$P1M1$0_0$0                       Lib_DHTx1
+     00000091  G$P1_1$0_0$0                       Lib_DHTx1
+     00000091  _P1M1                              Lib_DHTx1
+     00000091  _P1_1                              Lib_DHTx1
+     00000092  G$P1M0$0_0$0                       Lib_DHTx1
+     00000092  G$P1_2$0_0$0                       Lib_DHTx1
+     00000092  _P1M0                              Lib_DHTx1
+     00000092  _P1_2                              Lib_DHTx1
+     00000093  G$P0M1$0_0$0                       Lib_DHTx1
+     00000093  G$P1_3$0_0$0                       Lib_DHTx1
+     00000093  _P0M1                              Lib_DHTx1
+     00000093  _P1_3                              Lib_DHTx1
+     00000094  G$P0M0$0_0$0                       Lib_DHTx1
+     00000094  G$P1_4$0_0$0                       Lib_DHTx1
+     00000094  _P0M0                              Lib_DHTx1
+     00000094  _P1_4                              Lib_DHTx1
+     00000095  G$P1_5$0_0$0                       Lib_DHTx1
+     00000095  G$P2M1$0_0$0                       Lib_DHTx1
+     00000095  _P1_5                              Lib_DHTx1
+     00000095  _P2M1                              Lib_DHTx1
+     00000096  G$P1_6$0_0$0                       Lib_DHTx1
+     00000096  G$P2M0$0_0$0                       Lib_DHTx1
+     00000096  _P1_6                              Lib_DHTx1
+     00000096  _P2M0                              Lib_DHTx1
+     00000097  G$CLK_DIV$0_0$0                    Lib_DHTx1
+     00000097  G$P1_7$0_0$0                       Lib_DHTx1
+     00000097  _CLK_DIV                           Lib_DHTx1
+     00000097  _P1_7                              Lib_DHTx1
+     00000098  G$RI$0_0$0                         Lib_DHTx1
+     00000098  G$SCON$0_0$0                       Lib_DHTx1
+     00000098  _RI                                Lib_DHTx1
+     00000098  _SCON                              Lib_DHTx1
+     00000099  G$SBUF$0_0$0                       Lib_DHTx1
+     00000099  G$TI$0_0$0                         Lib_DHTx1
+     00000099  _SBUF                              Lib_DHTx1
+     00000099  _TI                                Lib_DHTx1
+     0000009A  G$RB8$0_0$0                        Lib_DHTx1
+     0000009A  G$S2CON$0_0$0                      Lib_DHTx1
+ASxxxx Linker V03.00 + NoICE + sdld,  page 5.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000009A  _RB8                               Lib_DHTx1
+     0000009A  _S2CON                             Lib_DHTx1
+     0000009B  G$S2BUF$0_0$0                      Lib_DHTx1
+     0000009B  G$TB8$0_0$0                        Lib_DHTx1
+     0000009B  _S2BUF                             Lib_DHTx1
+     0000009B  _TB8                               Lib_DHTx1
+     0000009C  G$BRT$0_0$0                        Lib_DHTx1
+     0000009C  G$REN$0_0$0                        Lib_DHTx1
+     0000009C  _BRT                               Lib_DHTx1
+     0000009C  _REN                               Lib_DHTx1
+     0000009D  G$P1ASF$0_0$0                      Lib_DHTx1
+     0000009D  G$SM2$0_0$0                        Lib_DHTx1
+     0000009D  _P1ASF                             Lib_DHTx1
+     0000009D  _SM2                               Lib_DHTx1
+     0000009E  G$SM1$0_0$0                        Lib_DHTx1
+     0000009E  _SM1                               Lib_DHTx1
+     0000009F  G$SM0$0_0$0                        Lib_DHTx1
+     0000009F  _SM0                               Lib_DHTx1
+     000000A0  G$P2$0_0$0                         Lib_DHTx1
+     000000A0  G$P2_0$0_0$0                       Lib_DHTx1
+     000000A0  _P2                                Lib_DHTx1
+     000000A0  _P2_0                              Lib_DHTx1
+     000000A0  __XPAGE                            
+     000000A1  G$BUS_SPEED$0_0$0                  Lib_DHTx1
+     000000A1  G$P2_1$0_0$0                       Lib_DHTx1
+     000000A1  _BUS_SPEED                         Lib_DHTx1
+     000000A1  _P2_1                              Lib_DHTx1
+     000000A2  G$AUXR1$0_0$0                      Lib_DHTx1
+     000000A2  G$P2_2$0_0$0                       Lib_DHTx1
+     000000A2  _AUXR1                             Lib_DHTx1
+     000000A2  _P2_2                              Lib_DHTx1
+     000000A3  G$P2_3$0_0$0                       Lib_DHTx1
+     000000A3  _P2_3                              Lib_DHTx1
+     000000A4  G$P2_4$0_0$0                       Lib_DHTx1
+     000000A4  _P2_4                              Lib_DHTx1
+     000000A5  G$P2_5$0_0$0                       Lib_DHTx1
+     000000A5  _P2_5                              Lib_DHTx1
+     000000A6  G$P2_6$0_0$0                       Lib_DHTx1
+     000000A6  _P2_6                              Lib_DHTx1
+     000000A7  G$P2_7$0_0$0                       Lib_DHTx1
+     000000A7  _P2_7                              Lib_DHTx1
+     000000A8  G$EX0$0_0$0                        Lib_DHTx1
+     000000A8  G$IE$0_0$0                         Lib_DHTx1
+     000000A8  _EX0                               Lib_DHTx1
+     000000A8  _IE                                Lib_DHTx1
+     000000A9  G$ET0$0_0$0                        Lib_DHTx1
+     000000A9  G$SADDR$0_0$0                      Lib_DHTx1
+     000000A9  _ET0                               Lib_DHTx1
+     000000A9  _SADDR                             Lib_DHTx1
+     000000AA  G$EX1$0_0$0                        Lib_DHTx1
+     000000AA  _EX1                               Lib_DHTx1
+ASxxxx Linker V03.00 + NoICE + sdld,  page 6.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000AB  G$ET1$0_0$0                        Lib_DHTx1
+     000000AB  _ET1                               Lib_DHTx1
+     000000AC  G$ES$0_0$0                         Lib_DHTx1
+     000000AC  _ES                                Lib_DHTx1
+     000000AD  G$EADC$0_0$0                       Lib_DHTx1
+     000000AD  _EADC                              Lib_DHTx1
+     000000AE  G$ELVD$0_0$0                       Lib_DHTx1
+     000000AE  _ELVD                              Lib_DHTx1
+     000000AF  G$EA$0_0$0                         Lib_DHTx1
+     000000AF  G$IE2$0_0$0                        Lib_DHTx1
+     000000AF  _EA                                Lib_DHTx1
+     000000AF  _IE2                               Lib_DHTx1
+     000000B0  G$P3$0_0$0                         Lib_DHTx1
+     000000B0  G$P3_0$0_0$0                       Lib_DHTx1
+     000000B0  G$RXD$0_0$0                        Lib_DHTx1
+     000000B0  _P3                                Lib_DHTx1
+     000000B0  _P3_0                              Lib_DHTx1
+     000000B0  _RXD                               Lib_DHTx1
+     000000B1  G$P3M1$0_0$0                       Lib_DHTx1
+     000000B1  G$P3_1$0_0$0                       Lib_DHTx1
+     000000B1  G$TXD$0_0$0                        Lib_DHTx1
+     000000B1  _P3M1                              Lib_DHTx1
+     000000B1  _P3_1                              Lib_DHTx1
+     000000B1  _TXD                               Lib_DHTx1
+     000000B2  G$INT0$0_0$0                       Lib_DHTx1
+     000000B2  G$P3M0$0_0$0                       Lib_DHTx1
+     000000B2  G$P3_2$0_0$0                       Lib_DHTx1
+     000000B2  _INT0                              Lib_DHTx1
+     000000B2  _P3M0                              Lib_DHTx1
+     000000B2  _P3_2                              Lib_DHTx1
+     000000B3  G$INT1$0_0$0                       Lib_DHTx1
+     000000B3  G$P3_3$0_0$0                       Lib_DHTx1
+     000000B3  G$P4M1$0_0$0                       Lib_DHTx1
+     000000B3  _INT1                              Lib_DHTx1
+     000000B3  _P3_3                              Lib_DHTx1
+     000000B3  _P4M1                              Lib_DHTx1
+     000000B4  G$P3_4$0_0$0                       Lib_DHTx1
+     000000B4  G$P4M0$0_0$0                       Lib_DHTx1
+     000000B4  G$T0$0_0$0                         Lib_DHTx1
+     000000B4  _P3_4                              Lib_DHTx1
+     000000B4  _P4M0                              Lib_DHTx1
+     000000B4  _T0                                Lib_DHTx1
+     000000B5  G$IP2$0_0$0                        Lib_DHTx1
+     000000B5  G$P3_5$0_0$0                       Lib_DHTx1
+     000000B5  G$T1$0_0$0                         Lib_DHTx1
+     000000B5  _IP2                               Lib_DHTx1
+     000000B5  _P3_5                              Lib_DHTx1
+     000000B5  _T1                                Lib_DHTx1
+     000000B6  G$IP2H$0_0$0                       Lib_DHTx1
+     000000B6  G$P3_6$0_0$0                       Lib_DHTx1
+     000000B6  G$WR$0_0$0                         Lib_DHTx1
+ASxxxx Linker V03.00 + NoICE + sdld,  page 7.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000B6  _IP2H                              Lib_DHTx1
+     000000B6  _P3_6                              Lib_DHTx1
+     000000B6  _WR                                Lib_DHTx1
+     000000B7  G$IPH$0_0$0                        Lib_DHTx1
+     000000B7  G$P3_7$0_0$0                       Lib_DHTx1
+     000000B7  G$RD$0_0$0                         Lib_DHTx1
+     000000B7  _IPH                               Lib_DHTx1
+     000000B7  _P3_7                              Lib_DHTx1
+     000000B7  _RD                                Lib_DHTx1
+     000000B8  G$IP$0_0$0                         Lib_DHTx1
+     000000B8  G$PX0$0_0$0                        Lib_DHTx1
+     000000B8  _IP                                Lib_DHTx1
+     000000B8  _PX0                               Lib_DHTx1
+     000000B9  G$PT0$0_0$0                        Lib_DHTx1
+     000000B9  G$SADEN$0_0$0                      Lib_DHTx1
+     000000B9  _PT0                               Lib_DHTx1
+     000000B9  _SADEN                             Lib_DHTx1
+     000000BA  G$PX1$0_0$0                        Lib_DHTx1
+     000000BA  _PX1                               Lib_DHTx1
+     000000BB  G$P4SW$0_0$0                       Lib_DHTx1
+     000000BB  G$PT1$0_0$0                        Lib_DHTx1
+     000000BB  _P4SW                              Lib_DHTx1
+     000000BB  _PT1                               Lib_DHTx1
+     000000BC  G$ADC_CONTR$0_0$0                  Lib_DHTx1
+     000000BC  G$PS$0_0$0                         Lib_DHTx1
+     000000BC  _ADC_CONTR                         Lib_DHTx1
+     000000BC  _PS                                Lib_DHTx1
+     000000BD  G$ADC_RES$0_0$0                    Lib_DHTx1
+     000000BD  G$PADC$0_0$0                       Lib_DHTx1
+     000000BD  _ADC_RES                           Lib_DHTx1
+     000000BD  _PADC                              Lib_DHTx1
+     000000BE  G$ADC_RESL$0_0$0                   Lib_DHTx1
+     000000BE  G$PLVD$0_0$0                       Lib_DHTx1
+     000000BE  _ADC_RESL                          Lib_DHTx1
+     000000BE  _PLVD                              Lib_DHTx1
+     000000BF  G$PPCA$0_0$0                       Lib_DHTx1
+     000000BF  _PPCA                              Lib_DHTx1
+     000000C0  G$P4$0_0$0                         Lib_DHTx1
+     000000C0  G$P4_0$0_0$0                       Lib_DHTx1
+     000000C0  _P4                                Lib_DHTx1
+     000000C0  _P4_0                              Lib_DHTx1
+     000000C1  G$P4_1$0_0$0                       Lib_DHTx1
+     000000C1  G$WDT_CONTR$0_0$0                  Lib_DHTx1
+     000000C1  _P4_1                              Lib_DHTx1
+     000000C1  _WDT_CONTR                         Lib_DHTx1
+     000000C2  G$IAP_DATA$0_0$0                   Lib_DHTx1
+     000000C2  G$P4_2$0_0$0                       Lib_DHTx1
+     000000C2  _IAP_DATA                          Lib_DHTx1
+     000000C2  _P4_2                              Lib_DHTx1
+     000000C3  G$IAP_ADDRH$0_0$0                  Lib_DHTx1
+     000000C3  G$P4_3$0_0$0                       Lib_DHTx1
+ASxxxx Linker V03.00 + NoICE + sdld,  page 8.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000C3  _IAP_ADDRH                         Lib_DHTx1
+     000000C3  _P4_3                              Lib_DHTx1
+     000000C4  G$IAP_ADDRL$0_0$0                  Lib_DHTx1
+     000000C4  G$P4_4$0_0$0                       Lib_DHTx1
+     000000C4  _IAP_ADDRL                         Lib_DHTx1
+     000000C4  _P4_4                              Lib_DHTx1
+     000000C5  G$IAP_CMD$0_0$0                    Lib_DHTx1
+     000000C5  G$P4_5$0_0$0                       Lib_DHTx1
+     000000C5  _IAP_CMD                           Lib_DHTx1
+     000000C5  _P4_5                              Lib_DHTx1
+     000000C6  G$IAP_TRIG$0_0$0                   Lib_DHTx1
+     000000C6  G$P4_6$0_0$0                       Lib_DHTx1
+     000000C6  _IAP_TRIG                          Lib_DHTx1
+     000000C6  _P4_6                              Lib_DHTx1
+     000000C7  G$IAP_CONTR$0_0$0                  Lib_DHTx1
+     000000C7  G$P4_7$0_0$0                       Lib_DHTx1
+     000000C7  _IAP_CONTR                         Lib_DHTx1
+     000000C7  _P4_7                              Lib_DHTx1
+     000000C8  G$P5$0_0$0                         Lib_DHTx1
+     000000C8  G$P5_0$0_0$0                       Lib_DHTx1
+     000000C8  _P5                                Lib_DHTx1
+     000000C8  _P5_0                              Lib_DHTx1
+     000000C9  G$P5M1$0_0$0                       Lib_DHTx1
+     000000C9  G$P5_1$0_0$0                       Lib_DHTx1
+     000000C9  _P5M1                              Lib_DHTx1
+     000000C9  _P5_1                              Lib_DHTx1
+     000000CA  G$P5M0$0_0$0                       Lib_DHTx1
+     000000CA  G$P5_2$0_0$0                       Lib_DHTx1
+     000000CA  _P5M0                              Lib_DHTx1
+     000000CA  _P5_2                              Lib_DHTx1
+     000000CB  G$P5_3$0_0$0                       Lib_DHTx1
+     000000CB  _P5_3                              Lib_DHTx1
+     000000CD  G$SPSTAT$0_0$0                     Lib_DHTx1
+     000000CD  _SPSTAT                            Lib_DHTx1
+     000000CE  G$SPCTL$0_0$0                      Lib_DHTx1
+     000000CE  _SPCTL                             Lib_DHTx1
+     000000CF  G$SPDAT$0_0$0                      Lib_DHTx1
+     000000CF  _SPDAT                             Lib_DHTx1
+     000000D0  G$P$0_0$0                          Lib_DHTx1
+     000000D0  G$PSW$0_0$0                        Lib_DHTx1
+     000000D0  _P                                 Lib_DHTx1
+     000000D0  _PSW                               Lib_DHTx1
+     000000D1  G$F1$0_0$0                         Lib_DHTx1
+     000000D1  _F1                                Lib_DHTx1
+     000000D2  G$OV$0_0$0                         Lib_DHTx1
+     000000D2  _OV                                Lib_DHTx1
+     000000D3  G$RS0$0_0$0                        Lib_DHTx1
+     000000D3  _RS0                               Lib_DHTx1
+     000000D4  G$RS1$0_0$0                        Lib_DHTx1
+     000000D4  _RS1                               Lib_DHTx1
+     000000D5  G$F0$0_0$0                         Lib_DHTx1
+ASxxxx Linker V03.00 + NoICE + sdld,  page 9.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000D5  _F0                                Lib_DHTx1
+     000000D6  G$AC$0_0$0                         Lib_DHTx1
+     000000D6  _AC                                Lib_DHTx1
+     000000D7  G$CY$0_0$0                         Lib_DHTx1
+     000000D7  _CY                                Lib_DHTx1
+     000000D8  G$CCF0$0_0$0                       Lib_DHTx1
+     000000D8  G$CCON$0_0$0                       Lib_DHTx1
+     000000D8  _CCF0                              Lib_DHTx1
+     000000D8  _CCON                              Lib_DHTx1
+     000000D9  G$CCF1$0_0$0                       Lib_DHTx1
+     000000D9  G$CMOD$0_0$0                       Lib_DHTx1
+     000000D9  _CCF1                              Lib_DHTx1
+     000000D9  _CMOD                              Lib_DHTx1
+     000000DA  G$CCAPM0$0_0$0                     Lib_DHTx1
+     000000DA  _CCAPM0                            Lib_DHTx1
+     000000DB  G$CCAPM1$0_0$0                     Lib_DHTx1
+     000000DB  _CCAPM1                            Lib_DHTx1
+     000000DE  G$CR$0_0$0                         Lib_DHTx1
+     000000DE  _CR                                Lib_DHTx1
+     000000DF  G$CF$0_0$0                         Lib_DHTx1
+     000000DF  _CF                                Lib_DHTx1
+     000000E0  G$ACC$0_0$0                        Lib_DHTx1
+     000000E0  _ACC                               Lib_DHTx1
+     000000E9  G$CL$0_0$0                         Lib_DHTx1
+     000000E9  _CL                                Lib_DHTx1
+     000000EA  G$CCAP0L$0_0$0                     Lib_DHTx1
+     000000EA  _CCAP0L                            Lib_DHTx1
+     000000EB  G$CCAP1L$0_0$0                     Lib_DHTx1
+     000000EB  _CCAP1L                            Lib_DHTx1
+     000000F0  G$B$0_0$0                          Lib_DHTx1
+     000000F0  _B                                 Lib_DHTx1
+     000000F2  G$PCA_PWM0$0_0$0                   Lib_DHTx1
+     000000F2  _PCA_PWM0                          Lib_DHTx1
+     000000F3  G$PCA_PWM1$0_0$0                   Lib_DHTx1
+     000000F3  _PCA_PWM1                          Lib_DHTx1
+     000000F5  _B_5                               _gptrget
+     000000F6  _B_6                               _gptrget
+     000000F7  _B_7                               _gptrget
+     000000F9  G$CH$0_0$0                         Lib_DHTx1
+     000000F9  _CH                                Lib_DHTx1
+     000000FA  G$CCAP0H$0_0$0                     Lib_DHTx1
+     000000FA  _CCAP0H                            Lib_DHTx1
+     000000FB  G$CCAP1H$0_0$0                     Lib_DHTx1
+     000000FB  _CCAP1H                            Lib_DHTx1
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 10.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+BSEG_BYTES                          00000020    00000001 =           1. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 11.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+REG_BANK_0                          00000000    00000008 =           8. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 12.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+DSEG                                00000000    0000007F =         127. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000008  Fser_ir$rcnt$0_0$0                 ser_ir
+     00000009  Fser_ir$xcnt$0_0$0                 ser_ir
+     0000000A  Fser_ir$rpos$0_0$0                 ser_ir
+     0000000B  Fser_ir$xpos$0_0$0                 ser_ir
+     0000000C  Lser_ir.ser_gets$len$1_0$25        ser_ir
+     0000000C  _ser_gets_PARM_2                   ser_ir
+     0000000D  Fsystimer$g_bTimer0Elapsed$0_0$0   systimer
+     0000000E  __uitoa_PARM_2                     _itoa
+     00000011  __uitoa_PARM_3                     _itoa
+     00000017  __itoa_PARM_2                      _itoa
+     0000001A  __itoa_PARM_3                      _itoa
+     00000021  G$g_sDHT11$0_0$0                   main
+     00000021  _g_sDHT11                          main
+     0000002F  Lmain.AppDHT11Init$sGPio$1_0$30    main
+     00000031  Lmain.main$ui16Minutes$4_0$37      main
+     00000033  Lmain.main$ui16Temperature$1_0$3   main
+     00000035  Lmain.main$ui16Humidity$1_0$32     main
+     00000037  Lmain.main$strHumidity$3_0$34      main
+     0000003B  Lmain.main$strTemperatrue$3_0$34   main
+     0000003F  Lmain.main$str$4_0$37              main
+     00000043  LLib_DHTx1.DHTx1_ReadData$psDHTx   Lib_DHTx1
+     00000046  LLib_DHTx1.DHTx1_ReadData$idx$2_   Lib_DHTx1
+     00000047  LLib_DHTx1.DHTx1_GetTemperature$   Lib_DHTx1
+     0000004A  LLib_DHTx1.DHTx1_GetHumidity$psD   Lib_DHTx1
+     0000004D  LLib_DHTx1.DHTx1_GetHumidityAndT   Lib_DHTx1
+     0000004D  _DHTx1_GetHumidityAndTemperature   Lib_DHTx1
+     00000050  LLib_DHTx1.DHTx1_GetHumidityAndT   Lib_DHTx1
+     00000050  _DHTx1_GetHumidityAndTemperature   Lib_DHTx1
+     00000053  LLib_DHTx1.DHTx1_GetHumidityAndT   Lib_DHTx1
+     00000056  LLib_DHTx1.DHTx1_GetHumidityAndT   Lib_DHTx1
+ASxxxx Linker V03.00 + NoICE + sdld,  page 13.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+OSEG                                0000001B    00000004 =           4. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000001B  LLib_DHTx1.DHTx1_IsDataChanged$p   Lib_DHTx1
+     0000001B  LLib_DHTx1.DHTx1_IsShortOfReadTi   Lib_DHTx1
+     0000001B  _DHTx1_IsDataChanged_PARM_2        Lib_DHTx1
+     0000001B  _DHTx1_IsShortOfReadTime_PARM_2    Lib_DHTx1
+     0000001B  __divsint_PARM_2                   _divuint
+     0000001B  __divuint_PARM_2                   _divuint
+     0000001B  __gptrput_PARM_2                   _gptrput
+     0000001B  __modsint_PARM_2                   _moduint
+     0000001B  __moduint_PARM_2                   _moduint
+     0000001B  __mulint_PARM_2                    _mulint
+     0000001B  _memset_PARM_2                     _memset
+     0000001C  _memset_PARM_3                     _memset
+ASxxxx Linker V03.00 + NoICE + sdld,  page 14.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+SSEG                                00000058    000000A8 =         168. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000058  __start__stack                     main
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 15.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+PSEG                                00000001    0000000C =          12. bytes (REL,CON,PAG,XDATA)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+D:   00000001  Fser_ir$rbuf$0_0$0                 ser_ir
+D:   00000009  Fser_ir$xbuf$0_0$0                 ser_ir
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 16.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+HOME                                00000000    00000029 =          41. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000000  A$mainmain$638                     main
+C:   00000003  A$mainmain$639                     main
+C:   0000000B  A$mainmain$641                     main
+C:   00000013  A$mainmain$643                     main
+C:   0000001B  A$mainmain$645                     main
+C:   00000023  A$mainmain$647                     main
+C:   00000026  A$mainmain$697                     main
+C:   00000026  __sdcc_program_startup             main
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 17.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT0                             00000029    00000003 =           3. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000029  __sdcc_gsinit_startup              
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 18.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT2                             0000002C    0000000A =          10. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 19.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT3                             00000036    00000022 =          34. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000036  __mcs51_genXINIT                   
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 20.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT4                             00000058    0000002A =          42. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000058  __mcs51_genRAMCLEAR                
+C:   0000005E  __mcs51_genXRAMCLEAR               
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 21.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT                              00000082    0000000E =          14. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000082  A$mainmain$669                     main
+C:   00000082  C$main.c$30$1_0$30                 main
+C:   00000085  A$mainmain$670                     main
+C:   00000088  A$mainmain$686                     main
+C:   00000088  C$main.c$57$2_0$32                 main
+C:   00000089  A$mainmain$687                     main
+C:   0000008B  A$mainmain$688                     main
+C:   0000008D  A$systimerimer$605                 systimer
+C:   0000008D  C$systimer.c$4$1_0$12              systimer
+ASxxxx Linker V03.00 + NoICE + sdld,  page 22.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSFINAL                             00000090    00000003 =           3. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000090  A$mainmain$690                     main
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 23.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000093    00000B1A =        2842. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000093  A$mainmain$725                     main
+C:   00000093  C$main.c$28$0_0$30                 main
+C:   00000093  C$main.c$32$1_0$30                 main
+C:   00000093  G$AppDHT11Init$0$0                 main
+C:   00000093  _AppDHT11Init                      main
+C:   00000096  A$mainmain$726                     main
+C:   00000099  A$mainmain$727                     main
+C:   0000009C  A$mainmain$730                     main
+C:   0000009C  C$main.c$33$1_0$30                 main
+C:   0000009F  A$mainmain$733                     main
+C:   0000009F  C$main.c$34$1_0$30                 main
+C:   000000A2  A$mainmain$734                     main
+C:   000000A5  A$mainmain$735                     main
+C:   000000A8  A$mainmain$740                     main
+C:   000000A8  C$main.c$35$1_0$30                 main
+C:   000000A8  XG$AppDHT11Init$0$0                main
+C:   000000A9  A$mainmain$762                     main
+C:   000000A9  C$main.c$38$1_0$32                 main
+C:   000000A9  C$main.c$40$2_0$32                 main
+C:   000000A9  G$main$0$0                         main
+C:   000000A9  _main                              main
+C:   000000AA  A$mainmain$763                     main
+C:   000000AC  A$mainmain$764                     main
+C:   000000AE  A$mainmain$767                     main
+C:   000000AE  C$main.c$41$2_0$32                 main
+C:   000000B0  A$mainmain$768                     main
+C:   000000B2  A$mainmain$772                     main
+C:   000000B2  C$main.c$43$1_0$32                 main
+C:   000000B4  A$mainmain$776                     main
+C:   000000B4  C$main.c$44$1_0$32                 main
+C:   000000B6  A$mainmain$779                     main
+C:   000000B6  C$main.c$46$1_0$32                 main
+C:   000000B9  A$mainmain$782                     main
+C:   000000B9  C$main.c$47$1_0$32                 main
+C:   000000BC  A$mainmain$785                     main
+C:   000000BC  C$main.c$48$1_0$32                 main
+C:   000000BF  A$mainmain$789                     main
+C:   000000BF  C$main.c$53$4_0$34                 main
+C:   000000C2  A$mainmain$790                     main
+C:   000000C5  A$mainmain$791                     main
+C:   000000C8  A$mainmain$792                     main
+C:   000000CB  A$mainmain$795                     main
+C:   000000CB  C$main.c$54$4_0$34                 main
+C:   000000CE  A$mainmain$796                     main
+C:   000000D1  A$mainmain$797                     main
+C:   000000D4  A$mainmain$798                     main
+C:   000000D7  A$mainmain$801                     main
+C:   000000D7  C$main.c$56$2_0$32                 main
+C:   000000D9  A$mainmain$802                     main
+C:   000000DB  A$mainmain$804                     main
+ASxxxx Linker V03.00 + NoICE + sdld,  page 24.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000093    00000B1A =        2842. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000000DC  A$mainmain$805                     main
+C:   000000DF  A$mainmain$806                     main
+C:   000000E0  A$mainmain$808                     main
+C:   000000E2  A$mainmain$809                     main
+C:   000000E4  A$mainmain$810                     main
+C:   000000E5  A$mainmain$811                     main
+C:   000000E6  A$mainmain$812                     main
+C:   000000E8  A$mainmain$813                     main
+C:   000000E9  A$mainmain$814                     main
+C:   000000EB  A$mainmain$815                     main
+C:   000000ED  A$mainmain$816                     main
+C:   000000F0  A$mainmain$817                     main
+C:   000000F2  A$mainmain$818                     main
+C:   000000F4  A$mainmain$819                     main
+C:   000000F7  A$mainmain$820                     main
+C:   000000F9  A$mainmain$821                     main
+C:   000000FB  A$mainmain$823                     main
+C:   000000FD  A$mainmain$824                     main
+C:   000000FF  A$mainmain$825                     main
+C:   00000102  A$mainmain$826                     main
+C:   00000104  A$mainmain$827                     main
+C:   00000106  A$mainmain$828                     main
+C:   00000108  A$mainmain$829                     main
+C:   0000010A  A$mainmain$830                     main
+C:   0000010C  A$mainmain$834                     main
+C:   0000010C  C$main.c$57$5_0$37                 main
+C:   0000010F  A$mainmain$835                     main
+C:   00000112  A$mainmain$836                     main
+C:   00000115  A$mainmain$837                     main
+C:   00000118  A$mainmain$838                     main
+C:   0000011A  A$mainmain$839                     main
+C:   0000011B  A$mainmain$840                     main
+C:   0000011E  A$mainmain$841                     main
+C:   00000120  A$mainmain$843                     main
+C:   00000123  A$mainmain$844                     main
+C:   00000126  A$mainmain$845                     main
+C:   00000129  A$mainmain$846                     main
+C:   0000012C  A$mainmain$847                     main
+C:   0000012F  A$mainmain$848                     main
+C:   00000132  A$mainmain$849                     main
+C:   00000135  A$mainmain$850                     main
+C:   00000137  A$mainmain$851                     main
+C:   00000139  A$mainmain$852                     main
+C:   0000013A  A$mainmain$853                     main
+C:   0000013C  A$mainmain$854                     main
+C:   0000013D  A$mainmain$855                     main
+C:   0000013E  A$mainmain$856                     main
+C:   0000013F  A$mainmain$857                     main
+C:   00000141  A$mainmain$858                     main
+C:   00000144  A$mainmain$859                     main
+C:   00000147  A$mainmain$860                     main
+ASxxxx Linker V03.00 + NoICE + sdld,  page 25.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000093    00000B1A =        2842. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000014A  A$mainmain$861                     main
+C:   0000014D  A$mainmain$862                     main
+C:   00000150  A$mainmain$863                     main
+C:   00000153  A$mainmain$865                     main
+C:   00000155  A$mainmain$867                     main
+C:   00000158  A$mainmain$868                     main
+C:   0000015B  A$mainmain$869                     main
+C:   0000015E  A$mainmain$870                     main
+C:   00000161  A$mainmain$871                     main
+C:   00000164  A$mainmain$874                     main
+C:   00000164  C$main.c$59$3_0$34                 main
+C:   00000167  A$mainmain$875                     main
+C:   0000016A  A$mainmain$876                     main
+C:   0000016D  A$mainmain$877                     main
+C:   0000016F  A$mainmain$878                     main
+C:   00000172  A$mainmain$881                     main
+C:   00000172  C$main.c$61$4_0$40                 main
+C:   00000174  A$mainmain$884                     main
+C:   00000174  C$main.c$65$4_0$40                 main
+C:   00000177  A$mainmain$885                     main
+C:   0000017A  A$mainmain$886                     main
+C:   0000017D  A$mainmain$887                     main
+C:   00000180  A$mainmain$888                     main
+C:   00000183  A$mainmain$889                     main
+C:   00000186  A$mainmain$890                     main
+C:   00000189  A$mainmain$891                     main
+C:   0000018C  A$mainmain$892                     main
+C:   0000018F  A$mainmain$895                     main
+C:   0000018F  C$main.c$67$4_0$40                 main
+C:   00000192  A$mainmain$896                     main
+C:   00000195  A$mainmain$897                     main
+C:   00000198  A$mainmain$898                     main
+C:   0000019B  A$mainmain$899                     main
+C:   0000019E  A$mainmain$900                     main
+C:   000001A1  A$mainmain$901                     main
+C:   000001A4  A$mainmain$904                     main
+C:   000001A4  C$main.c$68$4_0$40                 main
+C:   000001A7  A$mainmain$905                     main
+C:   000001AA  A$mainmain$906                     main
+C:   000001AD  A$mainmain$907                     main
+C:   000001B0  A$mainmain$908                     main
+C:   000001B3  A$mainmain$909                     main
+C:   000001B6  A$mainmain$910                     main
+C:   000001B9  A$mainmain$913                     main
+C:   000001B9  C$main.c$69$4_0$40                 main
+C:   000001BC  A$mainmain$914                     main
+C:   000001BF  A$mainmain$915                     main
+C:   000001C2  A$mainmain$918                     main
+C:   000001C2  C$main.c$70$4_0$40                 main
+C:   000001C5  A$mainmain$919                     main
+C:   000001C8  A$mainmain$922                     main
+ASxxxx Linker V03.00 + NoICE + sdld,  page 26.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000093    00000B1A =        2842. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000001C8  C$main.c$71$4_0$40                 main
+C:   000001CB  A$mainmain$923                     main
+C:   000001CE  A$mainmain$924                     main
+C:   000001D1  A$mainmain$927                     main
+C:   000001D1  C$main.c$72$4_0$40                 main
+C:   000001D4  A$mainmain$928                     main
+C:   000001D7  A$mainmain$929                     main
+C:   000001DA  A$mainmain$930                     main
+C:   000001DD  A$mainmain$934                     main
+C:   000001DD  C$main.c$76$4_0$41                 main
+C:   000001E0  A$mainmain$935                     main
+C:   000001E3  A$mainmain$938                     main
+C:   000001E3  C$main.c$77$4_0$41                 main
+C:   000001E6  A$mainmain$939                     main
+C:   000001E9  A$mainmain$942                     main
+C:   000001E9  C$main.c$78$4_0$41                 main
+C:   000001EC  A$mainmain$943                     main
+C:   000001EF  A$mainmain$946                     main
+C:   000001EF  C$main.c$79$4_0$41                 main
+C:   000001F2  A$mainmain$947                     main
+C:   000001F5  A$mainmain$950                     main
+C:   000001F5  C$main.c$80$4_0$41                 main
+C:   000001F8  A$mainmain$951                     main
+C:   000001FB  A$mainmain$952                     main
+C:   000001FE  A$mainmain$957                     main
+C:   000001FE  C$main.c$83$2_0$32                 main
+C:   000001FE  XG$main$0$0                        main
+C:   000001FF  A$ser_irr_ir$660                   ser_ir
+C:   000001FF  C$ser_ir.c$72$0_0$10               ser_ir
+C:   000001FF  C$ser_ir.c$74$1_0$10               ser_ir
+C:   000001FF  Fmain$__str_1$0_0$0                main
+C:   000001FF  G$ser_init$0$0                     ser_ir
+C:   000001FF  _ser_init                          ser_ir
+C:   00000201  A$ser_irr_ir$663                   ser_ir
+C:   00000201  C$ser_ir.c$75$1_0$10               ser_ir
+C:   00000204  A$ser_irr_ir$664                   ser_ir
+C:   00000207  A$ser_irr_ir$665                   ser_ir
+C:   0000020A  A$ser_irr_ir$666                   ser_ir
+C:   0000020D  A$ser_irr_ir$670                   ser_ir
+C:   0000020D  C$ser_ir.c$76$1_0$10               ser_ir
+C:   0000020F  A$ser_irr_ir$673                   ser_ir
+C:   0000020F  C$ser_ir.c$78$1_0$10               ser_ir
+C:   00000212  A$ser_irr_ir$676                   ser_ir
+C:   00000212  C$ser_ir.c$79$1_0$10               ser_ir
+C:   00000215  A$ser_irr_ir$679                   ser_ir
+C:   00000215  C$ser_ir.c$80$1_0$10               ser_ir
+C:   00000218  A$ser_irr_ir$682                   ser_ir
+C:   00000218  C$ser_ir.c$81$1_0$10               ser_ir
+C:   0000021B  A$ser_irr_ir$685                   ser_ir
+C:   0000021B  C$ser_ir.c$82$1_0$10               ser_ir
+C:   0000021E  A$ser_irr_ir$688                   ser_ir
+ASxxxx Linker V03.00 + NoICE + sdld,  page 27.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000093    00000B1A =        2842. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000021E  C$ser_ir.c$83$1_0$10               ser_ir
+C:   00000221  A$ser_irr_ir$691                   ser_ir
+C:   00000221  C$ser_ir.c$85$1_0$10               ser_ir
+C:   00000224  A$ser_irr_ir$694                   ser_ir
+C:   00000224  C$ser_ir.c$86$1_0$10               ser_ir
+C:   00000227  A$ser_irr_ir$698                   ser_ir
+C:   00000227  C$ser_ir.c$87$1_0$10               ser_ir
+C:   00000229  A$ser_irr_ir$702                   ser_ir
+C:   00000229  C$ser_ir.c$88$1_0$10               ser_ir
+C:   0000022B  A$ser_irr_ir$706                   ser_ir
+C:   0000022B  C$ser_ir.c$90$1_0$10               ser_ir
+C:   0000022D  A$ser_irr_ir$710                   ser_ir
+C:   0000022D  C$ser_ir.c$91$1_0$10               ser_ir
+C:   0000022F  A$ser_irr_ir$715                   ser_ir
+C:   0000022F  C$ser_ir.c$92$1_0$10               ser_ir
+C:   0000022F  XG$ser_init$0$0                    ser_ir
+C:   00000230  A$ser_irr_ir$726                   ser_ir
+C:   00000230  C$ser_ir.c$97$1_0$12               ser_ir
+C:   00000230  G$ser_handler$0$0                  ser_ir
+C:   00000230  _ser_handler                       ser_ir
+C:   00000232  A$ser_irr_ir$727                   ser_ir
+C:   00000234  A$ser_irr_ir$728                   ser_ir
+C:   00000236  A$ser_irr_ir$729                   ser_ir
+C:   00000238  A$ser_irr_ir$730                   ser_ir
+C:   0000023A  A$ser_irr_ir$731                   ser_ir
+C:   0000023C  A$ser_irr_ir$732                   ser_ir
+C:   0000023F  A$ser_irr_ir$738                   ser_ir
+C:   0000023F  C$ser_ir.c$100$2_0$13              ser_ir
+C:   0000023F  C$ser_ir.c$99$1_0$12               ser_ir
+C:   00000242  A$ser_irr_ir$739                   ser_ir
+C:   00000244  A$ser_irr_ir$743                   ser_ir
+C:   00000244  C$ser_ir.c$102$2_0$13              ser_ir
+C:   00000246  A$ser_irr_ir$744                   ser_ir
+C:   00000248  A$ser_irr_ir$745                   ser_ir
+C:   0000024A  A$ser_irr_ir$748                   ser_ir
+C:   0000024A  C$ser_ir.c$103$2_0$13              ser_ir
+C:   0000024C  A$ser_irr_ir$749                   ser_ir
+C:   0000024E  A$ser_irr_ir$750                   ser_ir
+C:   0000024F  A$ser_irr_ir$751                   ser_ir
+C:   00000251  A$ser_irr_ir$752                   ser_ir
+C:   00000252  A$ser_irr_ir$753                   ser_ir
+C:   00000255  A$ser_irr_ir$754                   ser_ir
+C:   00000257  A$ser_irr_ir$755                   ser_ir
+C:   00000258  A$ser_irr_ir$756                   ser_ir
+C:   0000025A  A$ser_irr_ir$757                   ser_ir
+C:   0000025B  A$ser_irr_ir$758                   ser_ir
+C:   0000025D  A$ser_irr_ir$759                   ser_ir
+C:   0000025E  A$ser_irr_ir$766                   ser_ir
+C:   0000025E  C$ser_ir.c$105$1_0$12              ser_ir
+C:   0000025E  C$ser_ir.c$106$2_0$14              ser_ir
+C:   00000261  A$ser_irr_ir$767                   ser_ir
+ASxxxx Linker V03.00 + NoICE + sdld,  page 28.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000093    00000B1A =        2842. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000263  A$ser_irr_ir$772                   ser_ir
+C:   00000263  C$ser_ir.c$107$2_0$14              ser_ir
+C:   00000265  A$ser_irr_ir$773                   ser_ir
+C:   00000267  A$ser_irr_ir$774                   ser_ir
+C:   00000269  A$ser_irr_ir$775                   ser_ir
+C:   0000026B  A$ser_irr_ir$778                   ser_ir
+C:   0000026B  C$ser_ir.c$108$3_0$15              ser_ir
+C:   0000026D  A$ser_irr_ir$781                   ser_ir
+C:   0000026D  C$ser_ir.c$109$3_0$15              ser_ir
+C:   0000026F  A$ser_irr_ir$782                   ser_ir
+C:   00000271  A$ser_irr_ir$783                   ser_ir
+C:   00000272  A$ser_irr_ir$784                   ser_ir
+C:   00000274  A$ser_irr_ir$785                   ser_ir
+C:   00000275  A$ser_irr_ir$786                   ser_ir
+C:   00000276  A$ser_irr_ir$787                   ser_ir
+C:   00000278  A$ser_irr_ir$790                   ser_ir
+C:   00000278  C$ser_ir.c$110$3_0$15              ser_ir
+C:   0000027A  A$ser_irr_ir$791                   ser_ir
+C:   0000027C  A$ser_irr_ir$792                   ser_ir
+C:   0000027E  A$ser_irr_ir$795                   ser_ir
+C:   0000027E  C$ser_ir.c$111$3_0$15              ser_ir
+C:   00000281  A$ser_irr_ir$799                   ser_ir
+C:   00000283  A$ser_irr_ir$800                   ser_ir
+C:   00000285  A$ser_irr_ir$801                   ser_ir
+C:   00000287  A$ser_irr_ir$802                   ser_ir
+C:   00000289  A$ser_irr_ir$803                   ser_ir
+C:   0000028B  A$ser_irr_ir$804                   ser_ir
+C:   0000028D  A$ser_irr_ir$807                   ser_ir
+C:   0000028D  C$ser_ir.c$114$1_0$12              ser_ir
+C:   0000028D  XG$ser_handler$0$0                 ser_ir
+C:   0000028E  A$ser_irr_ir$823                   ser_ir
+C:   0000028E  C$ser_ir.c$117$1_0$17              ser_ir
+C:   0000028E  G$ser_putc$0$0                     ser_ir
+C:   0000028E  _ser_putc                          ser_ir
+C:   00000290  A$ser_irr_ir$827                   ser_ir
+C:   00000290  C$ser_ir.c$119$1_0$17              ser_ir
+C:   00000292  A$ser_irr_ir$828                   ser_ir
+C:   00000294  A$ser_irr_ir$829                   ser_ir
+C:   00000296  A$ser_irr_ir$833                   ser_ir
+C:   00000296  C$ser_ir.c$121$1_0$17              ser_ir
+C:   00000298  A$ser_irr_ir$836                   ser_ir
+C:   00000298  C$ser_ir.c$122$1_0$17              ser_ir
+C:   0000029B  A$ser_irr_ir$839                   ser_ir
+C:   0000029B  C$ser_ir.c$123$2_0$18              ser_ir
+C:   0000029D  A$ser_irr_ir$840                   ser_ir
+C:   0000029F  A$ser_irr_ir$841                   ser_ir
+C:   000002A0  A$ser_irr_ir$842                   ser_ir
+C:   000002A2  A$ser_irr_ir$843                   ser_ir
+C:   000002A3  A$ser_irr_ir$844                   ser_ir
+C:   000002A6  A$ser_irr_ir$845                   ser_ir
+C:   000002A8  A$ser_irr_ir$846                   ser_ir
+ASxxxx Linker V03.00 + NoICE + sdld,  page 29.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000093    00000B1A =        2842. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000002A9  A$ser_irr_ir$847                   ser_ir
+C:   000002AB  A$ser_irr_ir$848                   ser_ir
+C:   000002AC  A$ser_irr_ir$849                   ser_ir
+C:   000002AD  A$ser_irr_ir$850                   ser_ir
+C:   000002AE  A$ser_irr_ir$851                   ser_ir
+C:   000002B0  A$ser_irr_ir$855                   ser_ir
+C:   000002B0  C$ser_ir.c$125$2_0$19              ser_ir
+C:   000002B2  A$ser_irr_ir$859                   ser_ir
+C:   000002B2  C$ser_ir.c$126$2_0$19              ser_ir
+C:   000002B4  A$ser_irr_ir$864                   ser_ir
+C:   000002B4  C$ser_ir.c$128$1_0$17              ser_ir
+C:   000002B6  A$ser_irr_ir$869                   ser_ir
+C:   000002B6  C$ser_ir.c$129$1_0$17              ser_ir
+C:   000002B6  XG$ser_putc$0$0                    ser_ir
+C:   000002B7  A$ser_irr_ir$885                   ser_ir
+C:   000002B7  C$ser_ir.c$132$1_0$21              ser_ir
+C:   000002B7  C$ser_ir.c$135$1_0$21              ser_ir
+C:   000002B7  G$ser_getc$0$0                     ser_ir
+C:   000002B7  _ser_getc                          ser_ir
+C:   000002B9  A$ser_irr_ir$886                   ser_ir
+C:   000002BB  A$ser_irr_ir$890                   ser_ir
+C:   000002BB  C$ser_ir.c$137$1_0$21              ser_ir
+C:   000002BD  A$ser_irr_ir$893                   ser_ir
+C:   000002BD  C$ser_ir.c$138$1_0$21              ser_ir
+C:   000002BF  A$ser_irr_ir$896                   ser_ir
+C:   000002BF  C$ser_ir.c$139$1_0$21              ser_ir
+C:   000002C1  A$ser_irr_ir$897                   ser_ir
+C:   000002C3  A$ser_irr_ir$898                   ser_ir
+C:   000002C4  A$ser_irr_ir$899                   ser_ir
+C:   000002C6  A$ser_irr_ir$900                   ser_ir
+C:   000002C7  A$ser_irr_ir$901                   ser_ir
+C:   000002C8  A$ser_irr_ir$902                   ser_ir
+C:   000002C9  A$ser_irr_ir$905                   ser_ir
+C:   000002C9  C$ser_ir.c$140$1_0$21              ser_ir
+C:   000002CB  A$ser_irr_ir$906                   ser_ir
+C:   000002CD  A$ser_irr_ir$907                   ser_ir
+C:   000002CF  A$ser_irr_ir$910                   ser_ir
+C:   000002CF  C$ser_ir.c$141$1_0$21              ser_ir
+C:   000002D2  A$ser_irr_ir$915                   ser_ir
+C:   000002D2  C$ser_ir.c$142$1_0$21              ser_ir
+C:   000002D4  A$ser_irr_ir$918                   ser_ir
+C:   000002D4  C$ser_ir.c$143$1_0$21              ser_ir
+C:   000002D6  A$ser_irr_ir$923                   ser_ir
+C:   000002D6  C$ser_ir.c$144$1_0$21              ser_ir
+C:   000002D6  XG$ser_getc$0$0                    ser_ir
+C:   000002D7  A$ser_irr_ir$937                   ser_ir
+C:   000002D7  C$ser_ir.c$149$1_0$23              ser_ir
+C:   000002D7  G$ser_puts$0$0                     ser_ir
+C:   000002D7  _ser_puts                          ser_ir
+C:   000002D9  A$ser_irr_ir$938                   ser_ir
+C:   000002DB  A$ser_irr_ir$939                   ser_ir
+ASxxxx Linker V03.00 + NoICE + sdld,  page 30.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000093    00000B1A =        2842. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000002DD  A$ser_irr_ir$943                   ser_ir
+C:   000002DD  C$ser_ir.c$152$1_0$23              ser_ir
+C:   000002DF  A$ser_irr_ir$944                   ser_ir
+C:   000002E1  A$ser_irr_ir$945                   ser_ir
+C:   000002E3  A$ser_irr_ir$946                   ser_ir
+C:   000002E6  A$ser_irr_ir$947                   ser_ir
+C:   000002E7  A$ser_irr_ir$948                   ser_ir
+C:   000002E8  A$ser_irr_ir$949                   ser_ir
+C:   000002EA  A$ser_irr_ir$950                   ser_ir
+C:   000002EC  A$ser_irr_ir$951                   ser_ir
+C:   000002ED  A$ser_irr_ir$952                   ser_ir
+C:   000002EE  A$ser_irr_ir$953                   ser_ir
+C:   000002F0  A$ser_irr_ir$956                   ser_ir
+C:   000002F0  C$ser_ir.c$153$2_0$24              ser_ir
+C:   000002F3  A$ser_irr_ir$957                   ser_ir
+C:   000002F6  A$ser_irr_ir$958                   ser_ir
+C:   000002F8  A$ser_irr_ir$959                   ser_ir
+C:   000002FA  A$ser_irr_ir$960                   ser_ir
+C:   000002FC  A$ser_irr_ir$961                   ser_ir
+C:   000002FE  A$ser_irr_ir$962                   ser_ir
+C:   00000301  A$ser_irr_ir$963                   ser_ir
+C:   00000303  A$ser_irr_ir$964                   ser_ir
+C:   00000305  A$ser_irr_ir$965                   ser_ir
+C:   00000307  A$ser_irr_ir$966                   ser_ir
+C:   00000309  A$ser_irr_ir$970                   ser_ir
+C:   00000309  C$ser_ir.c$154$2_0$24              ser_ir
+C:   0000030B  A$ser_irr_ir$971                   ser_ir
+C:   0000030D  A$ser_irr_ir$972                   ser_ir
+C:   0000030F  A$ser_irr_ir$973                   ser_ir
+C:   00000311  A$ser_irr_ir$974                   ser_ir
+C:   00000314  A$ser_irr_ir$975                   ser_ir
+C:   00000316  A$ser_irr_ir$976                   ser_ir
+C:   00000318  A$ser_irr_ir$977                   ser_ir
+C:   0000031A  A$ser_irr_ir$978                   ser_ir
+C:   0000031C  A$ser_irr_ir$984                   ser_ir
+C:   0000031C  C$ser_ir.c$156$1_0$23              ser_ir
+C:   0000031C  XG$ser_puts$0$0                    ser_ir
+C:   0000031D  A$ser_irr_ir$1000                  ser_ir
+C:   0000031D  C$ser_ir.c$160$1_0$26              ser_ir
+C:   0000031D  G$ser_gets$0$0                     ser_ir
+C:   0000031D  _ser_gets                          ser_ir
+C:   0000031F  A$ser_irr_ir$1001                  ser_ir
+C:   00000321  A$ser_irr_ir$1002                  ser_ir
+C:   00000323  A$ser_irr_ir$1005                  ser_ir
+C:   00000323  C$ser_ir.c$165$1_0$26              ser_ir
+C:   00000325  A$ser_irr_ir$1007                  ser_ir
+C:   00000326  A$ser_irr_ir$1008                  ser_ir
+C:   00000328  A$ser_irr_ir$1009                  ser_ir
+C:   00000329  A$ser_irr_ir$1010                  ser_ir
+C:   0000032B  A$ser_irr_ir$1013                  ser_ir
+C:   0000032B  C$ser_ir.c$166$2_0$27              ser_ir
+ASxxxx Linker V03.00 + NoICE + sdld,  page 31.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000093    00000B1A =        2842. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000032D  A$ser_irr_ir$1014                  ser_ir
+C:   0000032F  A$ser_irr_ir$1015                  ser_ir
+C:   00000331  A$ser_irr_ir$1016                  ser_ir
+C:   00000333  A$ser_irr_ir$1017                  ser_ir
+C:   00000336  A$ser_irr_ir$1018                  ser_ir
+C:   00000338  A$ser_irr_ir$1019                  ser_ir
+C:   0000033A  A$ser_irr_ir$1020                  ser_ir
+C:   0000033C  A$ser_irr_ir$1021                  ser_ir
+C:   0000033E  A$ser_irr_ir$1022                  ser_ir
+C:   00000340  A$ser_irr_ir$1025                  ser_ir
+C:   00000340  C$ser_ir.c$167$2_0$27              ser_ir
+C:   00000343  A$ser_irr_ir$1026                  ser_ir
+C:   00000345  A$ser_irr_ir$1030                  ser_ir
+C:   00000345  C$ser_ir.c$168$2_0$27              ser_ir
+C:   00000346  A$ser_irr_ir$1031                  ser_ir
+C:   00000347  A$ser_irr_ir$1032                  ser_ir
+C:   00000348  A$ser_irr_ir$1033                  ser_ir
+C:   00000349  A$ser_irr_ir$1034                  ser_ir
+C:   0000034A  A$ser_irr_ir$1035                  ser_ir
+C:   0000034B  A$ser_irr_ir$1036                  ser_ir
+C:   0000034D  A$ser_irr_ir$1037                  ser_ir
+C:   0000034E  A$ser_irr_ir$1038                  ser_ir
+C:   00000350  A$ser_irr_ir$1039                  ser_ir
+C:   00000352  A$ser_irr_ir$1040                  ser_ir
+C:   00000354  A$ser_irr_ir$1041                  ser_ir
+C:   00000355  A$ser_irr_ir$1042                  ser_ir
+C:   00000358  A$ser_irr_ir$1045                  ser_ir
+C:   00000358  C$ser_ir.c$169$2_0$27              ser_ir
+C:   0000035B  A$ser_irr_ir$1049                  ser_ir
+C:   0000035B  C$ser_ir.c$171$1_0$26              ser_ir
+C:   0000035C  A$ser_irr_ir$1050                  ser_ir
+C:   0000035D  A$ser_irr_ir$1051                  ser_ir
+C:   0000035E  A$ser_irr_ir$1052                  ser_ir
+C:   0000035F  A$ser_irr_ir$1053                  ser_ir
+C:   00000360  A$ser_irr_ir$1054                  ser_ir
+C:   00000361  A$ser_irr_ir$1055                  ser_ir
+C:   00000363  A$ser_irr_ir$1056                  ser_ir
+C:   00000365  A$ser_irr_ir$1057                  ser_ir
+C:   00000367  A$ser_irr_ir$1058                  ser_ir
+C:   00000368  A$ser_irr_ir$1059                  ser_ir
+C:   0000036B  A$ser_irr_ir$1064                  ser_ir
+C:   0000036B  C$ser_ir.c$172$1_0$26              ser_ir
+C:   0000036B  XG$ser_gets$0$0                    ser_ir
+C:   0000036C  A$ser_irr_ir$1077                  ser_ir
+C:   0000036C  C$ser_ir.c$175$1_0$29              ser_ir
+C:   0000036C  C$ser_ir.c$177$1_0$29              ser_ir
+C:   0000036C  G$ser_can_xmt$0$0                  ser_ir
+C:   0000036C  _ser_can_xmt                       ser_ir
+C:   0000036E  A$ser_irr_ir$1078                  ser_ir
+C:   00000370  A$ser_irr_ir$1079                  ser_ir
+C:   00000371  A$ser_irr_ir$1080                  ser_ir
+ASxxxx Linker V03.00 + NoICE + sdld,  page 32.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000093    00000B1A =        2842. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000372  A$ser_irr_ir$1081                  ser_ir
+C:   00000374  A$ser_irr_ir$1086                  ser_ir
+C:   00000374  C$ser_ir.c$178$1_0$29              ser_ir
+C:   00000374  XG$ser_can_xmt$0$0                 ser_ir
+C:   00000375  A$ser_irr_ir$1099                  ser_ir
+C:   00000375  C$ser_ir.c$181$1_0$31              ser_ir
+C:   00000375  C$ser_ir.c$183$1_0$31              ser_ir
+C:   00000375  G$ser_can_rcv$0$0                  ser_ir
+C:   00000375  _ser_can_rcv                       ser_ir
+C:   00000378  A$ser_irr_ir$1104                  ser_ir
+C:   00000378  C$ser_ir.c$184$1_0$31              ser_ir
+C:   00000378  XG$ser_can_rcv$0$0                 ser_ir
+C:   00000379  A$systimerimer$635                 systimer
+C:   00000379  C$systimer.c$6$0_0$6               systimer
+C:   00000379  C$systimer.c$8$1_0$6               systimer
+C:   00000379  G$Timer0Init$0$0                   systimer
+C:   00000379  _Timer0Init                        systimer
+C:   0000037C  A$systimerimer$639                 systimer
+C:   0000037C  C$systimer.c$10$1_0$6              systimer
+C:   0000037E  A$systimerimer$643                 systimer
+C:   0000037E  C$systimer.c$11$1_0$6              systimer
+C:   00000380  A$systimerimer$646                 systimer
+C:   00000380  C$systimer.c$13$1_0$6              systimer
+C:   00000383  A$systimerimer$649                 systimer
+C:   00000383  C$systimer.c$14$1_0$6              systimer
+C:   00000386  A$systimerimer$652                 systimer
+C:   00000386  C$systimer.c$15$1_0$6              systimer
+C:   00000389  A$systimerimer$656                 systimer
+C:   00000389  C$systimer.c$16$1_0$6              systimer
+C:   0000038B  A$systimerimer$661                 systimer
+C:   0000038B  C$systimer.c$17$1_0$6              systimer
+C:   0000038B  XG$Timer0Init$0$0                  systimer
+C:   0000038C  A$systimerimer$674                 systimer
+C:   0000038C  C$systimer.c$19$1_0$8              systimer
+C:   0000038C  G$Timer0Restart$0$0                systimer
+C:   0000038C  _Timer0Restart                     systimer
+C:   0000038E  A$systimerimer$675                 systimer
+C:   00000390  A$systimerimer$678                 systimer
+C:   00000390  C$systimer.c$24$1_0$8              systimer
+C:   00000393  A$systimerimer$681                 systimer
+C:   00000393  C$systimer.c$26$1_0$8              systimer
+C:   00000394  A$systimerimer$682                 systimer
+C:   00000395  A$systimerimer$683                 systimer
+C:   00000396  A$systimerimer$684                 systimer
+C:   00000397  A$systimerimer$685                 systimer
+C:   00000398  A$systimerimer$686                 systimer
+C:   00000399  A$systimerimer$687                 systimer
+C:   0000039A  A$systimerimer$690                 systimer
+C:   0000039A  C$systimer.c$27$1_0$8              systimer
+C:   0000039C  A$systimerimer$693                 systimer
+C:   0000039C  C$systimer.c$28$1_0$8              systimer
+ASxxxx Linker V03.00 + NoICE + sdld,  page 33.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000093    00000B1A =        2842. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000039E  A$systimerimer$697                 systimer
+C:   0000039E  C$systimer.c$30$1_0$8              systimer
+C:   000003A0  A$systimerimer$701                 systimer
+C:   000003A0  C$systimer.c$31$1_0$8              systimer
+C:   000003A2  A$systimerimer$705                 systimer
+C:   000003A2  C$systimer.c$33$1_0$8              systimer
+C:   000003A4  A$systimerimer$710                 systimer
+C:   000003A4  C$systimer.c$34$1_0$8              systimer
+C:   000003A4  XG$Timer0Restart$0$0               systimer
+C:   000003A5  A$systimerimer$723                 systimer
+C:   000003A5  C$systimer.c$36$1_0$10             systimer
+C:   000003A5  C$systimer.c$38$1_0$10             systimer
+C:   000003A5  G$Timer0IsElapsed$0$0              systimer
+C:   000003A5  _Timer0IsElapsed                   systimer
+C:   000003A8  A$systimerimer$728                 systimer
+C:   000003A8  C$systimer.c$39$1_0$10             systimer
+C:   000003A8  XG$Timer0IsElapsed$0$0             systimer
+C:   000003A9  A$systimerimer$742                 systimer
+C:   000003A9  C$systimer.c$41$1_0$12             systimer
+C:   000003A9  C$systimer.c$43$1_0$12             systimer
+C:   000003A9  G$Timer0Handler$0$0                systimer
+C:   000003A9  _Timer0Handler                     systimer
+C:   000003AB  A$systimerimer$746                 systimer
+C:   000003AB  C$systimer.c$44$1_0$12             systimer
+C:   000003AD  A$systimerimer$749                 systimer
+C:   000003AD  C$systimer.c$46$1_0$12             systimer
+C:   000003B0  A$systimerimer$752                 systimer
+C:   000003B0  C$systimer.c$47$1_0$12             systimer
+C:   000003B3  A$systimerimer$755                 systimer
+C:   000003B3  C$systimer.c$49$1_0$12             systimer
+C:   000003B6  A$systimerimer$760                 systimer
+C:   000003B6  C$systimer.c$50$1_0$12             systimer
+C:   000003B6  XG$Timer0Handler$0$0               systimer
+C:   000003B7  A$Lib.DHTx1HTx1$674                Lib_DHTx1
+C:   000003B7  C$Lib.DHTx1.c$18$0_0$44            Lib_DHTx1
+C:   000003B7  G$DHTx1_Init$0$0                   Lib_DHTx1
+C:   000003B7  _DHTx1_Init                        Lib_DHTx1
+C:   000003B9  A$Lib.DHTx1HTx1$675                Lib_DHTx1
+C:   000003BB  A$Lib.DHTx1HTx1$676                Lib_DHTx1
+C:   000003BD  A$Lib.DHTx1HTx1$679                Lib_DHTx1
+C:   000003BD  C$Lib.DHTx1.c$20$1_0$44            Lib_DHTx1
+C:   000003BF  A$Lib.DHTx1HTx1$680                Lib_DHTx1
+C:   000003C0  A$Lib.DHTx1HTx1$681                Lib_DHTx1
+C:   000003C1  A$Lib.DHTx1HTx1$682                Lib_DHTx1
+C:   000003C2  A$Lib.DHTx1HTx1$683                Lib_DHTx1
+C:   000003C3  A$Lib.DHTx1HTx1$684                Lib_DHTx1
+C:   000003C4  A$Lib.DHTx1HTx1$685                Lib_DHTx1
+C:   000003C6  A$Lib.DHTx1HTx1$686                Lib_DHTx1
+C:   000003C8  A$Lib.DHTx1HTx1$687                Lib_DHTx1
+C:   000003CA  A$Lib.DHTx1HTx1$688                Lib_DHTx1
+C:   000003CC  A$Lib.DHTx1HTx1$689                Lib_DHTx1
+ASxxxx Linker V03.00 + NoICE + sdld,  page 34.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000093    00000B1A =        2842. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000003CD  A$Lib.DHTx1HTx1$690                Lib_DHTx1
+C:   000003D0  A$Lib.DHTx1HTx1$691                Lib_DHTx1
+C:   000003D1  A$Lib.DHTx1HTx1$692                Lib_DHTx1
+C:   000003D4  A$Lib.DHTx1HTx1$693                Lib_DHTx1
+C:   000003D5  A$Lib.DHTx1HTx1$694                Lib_DHTx1
+C:   000003D8  A$Lib.DHTx1HTx1$695                Lib_DHTx1
+C:   000003D9  A$Lib.DHTx1HTx1$696                Lib_DHTx1
+C:   000003DC  A$Lib.DHTx1HTx1$699                Lib_DHTx1
+C:   000003DC  C$Lib.DHTx1.c$21$1_0$44            Lib_DHTx1
+C:   000003DE  A$Lib.DHTx1HTx1$700                Lib_DHTx1
+C:   000003E0  A$Lib.DHTx1HTx1$701                Lib_DHTx1
+C:   000003E2  A$Lib.DHTx1HTx1$703                Lib_DHTx1
+C:   000003E4  A$Lib.DHTx1HTx1$704                Lib_DHTx1
+C:   000003E7  A$Lib.DHTx1HTx1$706                Lib_DHTx1
+C:   000003E9  A$Lib.DHTx1HTx1$707                Lib_DHTx1
+C:   000003EB  A$Lib.DHTx1HTx1$708                Lib_DHTx1
+C:   000003ED  A$Lib.DHTx1HTx1$709                Lib_DHTx1
+C:   000003EF  A$Lib.DHTx1HTx1$710                Lib_DHTx1
+C:   000003F1  A$Lib.DHTx1HTx1$711                Lib_DHTx1
+C:   000003F3  A$Lib.DHTx1HTx1$712                Lib_DHTx1
+C:   000003F5  A$Lib.DHTx1HTx1$713                Lib_DHTx1
+C:   000003F8  A$Lib.DHTx1HTx1$714                Lib_DHTx1
+C:   000003FA  A$Lib.DHTx1HTx1$715                Lib_DHTx1
+C:   000003FC  A$Lib.DHTx1HTx1$716                Lib_DHTx1
+C:   000003FE  A$Lib.DHTx1HTx1$719                Lib_DHTx1
+C:   000003FE  C$Lib.DHTx1.c$23$1_0$44            Lib_DHTx1
+C:   00000400  A$Lib.DHTx1HTx1$720                Lib_DHTx1
+C:   00000401  A$Lib.DHTx1HTx1$721                Lib_DHTx1
+C:   00000402  A$Lib.DHTx1HTx1$722                Lib_DHTx1
+C:   00000403  A$Lib.DHTx1HTx1$723                Lib_DHTx1
+C:   00000404  A$Lib.DHTx1HTx1$724                Lib_DHTx1
+C:   00000405  A$Lib.DHTx1HTx1$725                Lib_DHTx1
+C:   00000407  A$Lib.DHTx1HTx1$726                Lib_DHTx1
+C:   00000409  A$Lib.DHTx1HTx1$727                Lib_DHTx1
+C:   0000040B  A$Lib.DHTx1HTx1$728                Lib_DHTx1
+C:   0000040D  A$Lib.DHTx1HTx1$729                Lib_DHTx1
+C:   00000410  A$Lib.DHTx1HTx1$730                Lib_DHTx1
+C:   00000411  A$Lib.DHTx1HTx1$731                Lib_DHTx1
+C:   00000413  A$Lib.DHTx1HTx1$732                Lib_DHTx1
+C:   00000416  A$Lib.DHTx1HTx1$733                Lib_DHTx1
+C:   00000418  A$Lib.DHTx1HTx1$737                Lib_DHTx1
+C:   00000418  C$Lib.DHTx1.c$25$2_0$45            Lib_DHTx1
+C:   0000041B  A$Lib.DHTx1HTx1$738                Lib_DHTx1
+C:   0000041D  A$Lib.DHTx1HTx1$742                Lib_DHTx1
+C:   0000041D  C$Lib.DHTx1.c$28$1_0$44            Lib_DHTx1
+C:   0000041F  A$Lib.DHTx1HTx1$743                Lib_DHTx1
+C:   00000421  A$Lib.DHTx1HTx1$744                Lib_DHTx1
+C:   00000423  A$Lib.DHTx1HTx1$745                Lib_DHTx1
+C:   00000425  A$Lib.DHTx1HTx1$746                Lib_DHTx1
+C:   00000427  A$Lib.DHTx1HTx1$747                Lib_DHTx1
+C:   00000429  A$Lib.DHTx1HTx1$748                Lib_DHTx1
+ASxxxx Linker V03.00 + NoICE + sdld,  page 35.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000093    00000B1A =        2842. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000042C  A$Lib.DHTx1HTx1$749                Lib_DHTx1
+C:   0000042E  A$Lib.DHTx1HTx1$750                Lib_DHTx1
+C:   00000430  A$Lib.DHTx1HTx1$751                Lib_DHTx1
+C:   00000432  A$Lib.DHTx1HTx1$754                Lib_DHTx1
+C:   00000432  C$Lib.DHTx1.c$29$1_0$44            Lib_DHTx1
+C:   00000434  A$Lib.DHTx1HTx1$755                Lib_DHTx1
+C:   00000435  A$Lib.DHTx1HTx1$756                Lib_DHTx1
+C:   00000436  A$Lib.DHTx1HTx1$757                Lib_DHTx1
+C:   00000437  A$Lib.DHTx1HTx1$758                Lib_DHTx1
+C:   00000438  A$Lib.DHTx1HTx1$759                Lib_DHTx1
+C:   00000439  A$Lib.DHTx1HTx1$760                Lib_DHTx1
+C:   0000043B  A$Lib.DHTx1HTx1$761                Lib_DHTx1
+C:   0000043D  A$Lib.DHTx1HTx1$762                Lib_DHTx1
+C:   0000043F  A$Lib.DHTx1HTx1$763                Lib_DHTx1
+C:   00000441  A$Lib.DHTx1HTx1$764                Lib_DHTx1
+C:   00000444  A$Lib.DHTx1HTx1$767                Lib_DHTx1
+C:   00000444  C$Lib.DHTx1.c$31$1_0$44            Lib_DHTx1
+C:   00000447  A$Lib.DHTx1HTx1$773                Lib_DHTx1
+C:   00000447  C$Lib.DHTx1.c$32$1_0$44            Lib_DHTx1
+C:   00000447  XG$DHTx1_Init$0$0                  Lib_DHTx1
+C:   00000448  A$Lib.DHTx1HTx1$790                Lib_DHTx1
+C:   00000448  C$Lib.DHTx1.c$36$1_0$47            Lib_DHTx1
+C:   00000448  C$Lib.DHTx1.c$42$1_0$47            Lib_DHTx1
+C:   00000448  G$DHTx1_Open$0$0                   Lib_DHTx1
+C:   00000448  _DHTx1_Open                        Lib_DHTx1
+C:   0000044A  A$Lib.DHTx1HTx1$793                Lib_DHTx1
+C:   0000044A  C$Lib.DHTx1.c$43$2_0$48            Lib_DHTx1
+C:   0000044D  A$Lib.DHTx1HTx1$794                Lib_DHTx1
+C:   00000450  A$Lib.DHTx1HTx1$796                Lib_DHTx1
+C:   00000453  A$Lib.DHTx1HTx1$797                Lib_DHTx1
+C:   00000455  A$Lib.DHTx1HTx1$798                Lib_DHTx1
+C:   00000457  A$Lib.DHTx1HTx1$802                Lib_DHTx1
+C:   00000457  C$Lib.DHTx1.c$45$1_0$47            Lib_DHTx1
+C:   00000459  A$Lib.DHTx1HTx1$805                Lib_DHTx1
+C:   00000459  C$Lib.DHTx1.c$46$2_0$49            Lib_DHTx1
+C:   0000045C  A$Lib.DHTx1HTx1$806                Lib_DHTx1
+C:   0000045F  A$Lib.DHTx1HTx1$808                Lib_DHTx1
+C:   00000462  A$Lib.DHTx1HTx1$809                Lib_DHTx1
+C:   00000464  A$Lib.DHTx1HTx1$810                Lib_DHTx1
+C:   00000466  A$Lib.DHTx1HTx1$813                Lib_DHTx1
+C:   00000466  C$Lib.DHTx1.c$50$1_0$47            Lib_DHTx1
+C:   00000469  A$Lib.DHTx1HTx1$816                Lib_DHTx1
+C:   00000469  C$Lib.DHTx1.c$55$1_0$47            Lib_DHTx1
+C:   0000046B  A$Lib.DHTx1HTx1$818                Lib_DHTx1
+C:   0000046E  A$Lib.DHTx1HTx1$819                Lib_DHTx1
+C:   0000046F  A$Lib.DHTx1HTx1$820                Lib_DHTx1
+C:   00000472  A$Lib.DHTx1HTx1$822                Lib_DHTx1
+C:   00000474  A$Lib.DHTx1HTx1$825                Lib_DHTx1
+C:   00000474  C$Lib.DHTx1.c$57$4_0$52            Lib_DHTx1
+C:   00000477  A$Lib.DHTx1HTx1$826                Lib_DHTx1
+C:   00000479  A$Lib.DHTx1HTx1$827                Lib_DHTx1
+ASxxxx Linker V03.00 + NoICE + sdld,  page 36.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000093    00000B1A =        2842. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000047C  A$Lib.DHTx1HTx1$828                Lib_DHTx1
+C:   0000047E  A$Lib.DHTx1HTx1$830                Lib_DHTx1
+C:   00000480  A$Lib.DHTx1HTx1$831                Lib_DHTx1
+C:   00000483  A$Lib.DHTx1HTx1$832                Lib_DHTx1
+C:   00000485  A$Lib.DHTx1HTx1$833                Lib_DHTx1
+C:   00000487  A$Lib.DHTx1HTx1$834                Lib_DHTx1
+C:   00000489  A$Lib.DHTx1HTx1$835                Lib_DHTx1
+C:   0000048B  A$Lib.DHTx1HTx1$839                Lib_DHTx1
+C:   0000048B  C$Lib.DHTx1.c$60$2_0$50            Lib_DHTx1
+C:   0000048C  A$Lib.DHTx1HTx1$840                Lib_DHTx1
+C:   0000048E  A$Lib.DHTx1HTx1$841                Lib_DHTx1
+C:   00000490  A$Lib.DHTx1HTx1$844                Lib_DHTx1
+C:   00000490  C$Lib.DHTx1.c$62$3_0$53            Lib_DHTx1
+C:   00000493  A$Lib.DHTx1HTx1$847                Lib_DHTx1
+C:   00000493  C$Lib.DHTx1.c$67$1_0$47            Lib_DHTx1
+C:   00000495  A$Lib.DHTx1HTx1$849                Lib_DHTx1
+C:   00000497  A$Lib.DHTx1HTx1$851                Lib_DHTx1
+C:   0000049A  A$Lib.DHTx1HTx1$852                Lib_DHTx1
+C:   0000049B  A$Lib.DHTx1HTx1$853                Lib_DHTx1
+C:   0000049E  A$Lib.DHTx1HTx1$855                Lib_DHTx1
+C:   000004A0  A$Lib.DHTx1HTx1$858                Lib_DHTx1
+C:   000004A0  C$Lib.DHTx1.c$69$4_0$55            Lib_DHTx1
+C:   000004A3  A$Lib.DHTx1HTx1$859                Lib_DHTx1
+C:   000004A5  A$Lib.DHTx1HTx1$860                Lib_DHTx1
+C:   000004A8  A$Lib.DHTx1HTx1$861                Lib_DHTx1
+C:   000004AA  A$Lib.DHTx1HTx1$863                Lib_DHTx1
+C:   000004AC  A$Lib.DHTx1HTx1$864                Lib_DHTx1
+C:   000004AF  A$Lib.DHTx1HTx1$865                Lib_DHTx1
+C:   000004B1  A$Lib.DHTx1HTx1$866                Lib_DHTx1
+C:   000004B3  A$Lib.DHTx1HTx1$867                Lib_DHTx1
+C:   000004B5  A$Lib.DHTx1HTx1$868                Lib_DHTx1
+C:   000004B7  A$Lib.DHTx1HTx1$872                Lib_DHTx1
+C:   000004B7  C$Lib.DHTx1.c$72$2_0$50            Lib_DHTx1
+C:   000004B8  A$Lib.DHTx1HTx1$873                Lib_DHTx1
+C:   000004BA  A$Lib.DHTx1HTx1$874                Lib_DHTx1
+C:   000004BC  A$Lib.DHTx1HTx1$877                Lib_DHTx1
+C:   000004BC  C$Lib.DHTx1.c$74$3_0$56            Lib_DHTx1
+C:   000004BF  A$Lib.DHTx1HTx1$878                Lib_DHTx1
+C:   000004C1  A$Lib.DHTx1HTx1$882                Lib_DHTx1
+C:   000004C1  C$Lib.DHTx1.c$77$2_0$50            Lib_DHTx1
+C:   000004C4  A$Lib.DHTx1HTx1$883                Lib_DHTx1
+C:   000004C6  A$Lib.DHTx1HTx1$887                Lib_DHTx1
+C:   000004C6  C$Lib.DHTx1.c$80$1_0$47            Lib_DHTx1
+C:   000004C9  A$Lib.DHTx1HTx1$893                Lib_DHTx1
+C:   000004C9  C$Lib.DHTx1.c$81$1_0$47            Lib_DHTx1
+C:   000004C9  XG$DHTx1_Open$0$0                  Lib_DHTx1
+C:   000004CA  A$Lib.DHTx1HTx1$909                Lib_DHTx1
+C:   000004CA  C$Lib.DHTx1.c$85$1_0$58            Lib_DHTx1
+C:   000004CA  C$Lib.DHTx1.c$90$1_0$58            Lib_DHTx1
+C:   000004CA  G$DHTx1_Close$0$0                  Lib_DHTx1
+C:   000004CA  _DHTx1_Close                       Lib_DHTx1
+ASxxxx Linker V03.00 + NoICE + sdld,  page 37.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000093    00000B1A =        2842. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000004CC  A$Lib.DHTx1HTx1$912                Lib_DHTx1
+C:   000004CC  C$Lib.DHTx1.c$92$1_0$58            Lib_DHTx1
+C:   000004CF  A$Lib.DHTx1HTx1$917                Lib_DHTx1
+C:   000004CF  C$Lib.DHTx1.c$93$1_0$58            Lib_DHTx1
+C:   000004CF  XG$DHTx1_Close$0$0                 Lib_DHTx1
+C:   000004D0  A$Lib.DHTx1HTx1$935                Lib_DHTx1
+C:   000004D0  C$Lib.DHTx1.c$97$1_0$60            Lib_DHTx1
+C:   000004D0  C$Lib.DHTx1.c$99$2_0$60            Lib_DHTx1
+C:   000004D0  G$DHTx1_ReadByte$0$0               Lib_DHTx1
+C:   000004D0  _DHTx1_ReadByte                    Lib_DHTx1
+C:   000004D2  A$Lib.DHTx1HTx1$938                Lib_DHTx1
+C:   000004D2  C$Lib.DHTx1.c$100$2_0$60           Lib_DHTx1
+C:   000004D4  A$Lib.DHTx1HTx1$941                Lib_DHTx1
+C:   000004D4  C$Lib.DHTx1.c$104$1_0$60           Lib_DHTx1
+C:   000004D6  A$Lib.DHTx1HTx1$945                Lib_DHTx1
+C:   000004D6  C$Lib.DHTx1.c$106$3_0$62           Lib_DHTx1
+C:   000004D8  A$Lib.DHTx1HTx1$946                Lib_DHTx1
+C:   000004D9  A$Lib.DHTx1HTx1$947                Lib_DHTx1
+C:   000004DA  A$Lib.DHTx1HTx1$948                Lib_DHTx1
+C:   000004DB  A$Lib.DHTx1HTx1$951                Lib_DHTx1
+C:   000004DB  C$Lib.DHTx1.c$109$1_0$60           Lib_DHTx1
+C:   000004DD  A$Lib.DHTx1HTx1$953                Lib_DHTx1
+C:   000004E0  A$Lib.DHTx1HTx1$954                Lib_DHTx1
+C:   000004E1  A$Lib.DHTx1HTx1$955                Lib_DHTx1
+C:   000004E4  A$Lib.DHTx1HTx1$957                Lib_DHTx1
+C:   000004E6  A$Lib.DHTx1HTx1$961                Lib_DHTx1
+C:   000004E6  C$Lib.DHTx1.c$111$1_0$60           Lib_DHTx1
+C:   000004E9  A$Lib.DHTx1HTx1$962                Lib_DHTx1
+C:   000004EB  A$Lib.DHTx1HTx1$963                Lib_DHTx1
+C:   000004ED  A$Lib.DHTx1HTx1$964                Lib_DHTx1
+C:   000004EF  A$Lib.DHTx1HTx1$965                Lib_DHTx1
+C:   000004F2  A$Lib.DHTx1HTx1$966                Lib_DHTx1
+C:   000004F4  A$Lib.DHTx1HTx1$967                Lib_DHTx1
+C:   000004F6  A$Lib.DHTx1HTx1$968                Lib_DHTx1
+C:   000004F8  A$Lib.DHTx1HTx1$970                Lib_DHTx1
+C:   000004FA  A$Lib.DHTx1HTx1$971                Lib_DHTx1
+C:   000004FC  A$Lib.DHTx1HTx1$972                Lib_DHTx1
+C:   000004FE  A$Lib.DHTx1HTx1$973                Lib_DHTx1
+C:   00000501  A$Lib.DHTx1HTx1$974                Lib_DHTx1
+C:   00000503  A$Lib.DHTx1HTx1$975                Lib_DHTx1
+C:   00000505  A$Lib.DHTx1HTx1$976                Lib_DHTx1
+C:   00000507  A$Lib.DHTx1HTx1$977                Lib_DHTx1
+C:   00000509  A$Lib.DHTx1HTx1$978                Lib_DHTx1
+C:   0000050B  A$Lib.DHTx1HTx1$981                Lib_DHTx1
+C:   0000050B  C$Lib.DHTx1.c$114$3_0$62           Lib_DHTx1
+C:   0000050E  A$Lib.DHTx1HTx1$983                Lib_DHTx1
+C:   00000510  A$Lib.DHTx1HTx1$986                Lib_DHTx1
+C:   00000510  C$Lib.DHTx1.c$116$4_0$65           Lib_DHTx1
+C:   00000513  A$Lib.DHTx1HTx1$989                Lib_DHTx1
+C:   00000513  C$Lib.DHTx1.c$120$3_0$62           Lib_DHTx1
+C:   00000515  A$Lib.DHTx1HTx1$991                Lib_DHTx1
+ASxxxx Linker V03.00 + NoICE + sdld,  page 38.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000093    00000B1A =        2842. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000518  A$Lib.DHTx1HTx1$992                Lib_DHTx1
+C:   0000051A  A$Lib.DHTx1HTx1$993                Lib_DHTx1
+C:   0000051C  A$Lib.DHTx1HTx1$994                Lib_DHTx1
+C:   0000051F  A$Lib.DHTx1HTx1$995                Lib_DHTx1
+C:   00000521  A$Lib.DHTx1HTx1$996                Lib_DHTx1
+C:   00000523  A$Lib.DHTx1HTx1$998                Lib_DHTx1
+C:   00000525  A$Lib.DHTx1HTx1$999                Lib_DHTx1
+C:   00000527  A$Lib.DHTx1HTx1$1000               Lib_DHTx1
+C:   0000052A  A$Lib.DHTx1HTx1$1001               Lib_DHTx1
+C:   0000052C  A$Lib.DHTx1HTx1$1002               Lib_DHTx1
+C:   0000052E  A$Lib.DHTx1HTx1$1003               Lib_DHTx1
+C:   00000530  A$Lib.DHTx1HTx1$1004               Lib_DHTx1
+C:   00000532  A$Lib.DHTx1HTx1$1007               Lib_DHTx1
+C:   00000532  C$Lib.DHTx1.c$122$3_0$62           Lib_DHTx1
+C:   00000535  A$Lib.DHTx1HTx1$1010               Lib_DHTx1
+C:   00000535  C$Lib.DHTx1.c$124$4_0$67           Lib_DHTx1
+C:   00000538  A$Lib.DHTx1HTx1$1014               Lib_DHTx1
+C:   00000538  C$Lib.DHTx1.c$129$1_0$60           Lib_DHTx1
+C:   0000053A  A$Lib.DHTx1HTx1$1016               Lib_DHTx1
+C:   0000053D  A$Lib.DHTx1HTx1$1017               Lib_DHTx1
+C:   0000053E  A$Lib.DHTx1HTx1$1018               Lib_DHTx1
+C:   00000541  A$Lib.DHTx1HTx1$1020               Lib_DHTx1
+C:   00000543  A$Lib.DHTx1HTx1$1023               Lib_DHTx1
+C:   00000543  C$Lib.DHTx1.c$131$5_0$69           Lib_DHTx1
+C:   00000546  A$Lib.DHTx1HTx1$1024               Lib_DHTx1
+C:   00000548  A$Lib.DHTx1HTx1$1025               Lib_DHTx1
+C:   0000054A  A$Lib.DHTx1HTx1$1026               Lib_DHTx1
+C:   0000054C  A$Lib.DHTx1HTx1$1027               Lib_DHTx1
+C:   0000054F  A$Lib.DHTx1HTx1$1028               Lib_DHTx1
+C:   00000551  A$Lib.DHTx1HTx1$1029               Lib_DHTx1
+C:   00000553  A$Lib.DHTx1HTx1$1030               Lib_DHTx1
+C:   00000555  A$Lib.DHTx1HTx1$1032               Lib_DHTx1
+C:   00000557  A$Lib.DHTx1HTx1$1033               Lib_DHTx1
+C:   00000559  A$Lib.DHTx1HTx1$1034               Lib_DHTx1
+C:   0000055B  A$Lib.DHTx1HTx1$1035               Lib_DHTx1
+C:   0000055E  A$Lib.DHTx1HTx1$1036               Lib_DHTx1
+C:   00000560  A$Lib.DHTx1HTx1$1037               Lib_DHTx1
+C:   00000562  A$Lib.DHTx1HTx1$1038               Lib_DHTx1
+C:   00000564  A$Lib.DHTx1HTx1$1039               Lib_DHTx1
+C:   00000566  A$Lib.DHTx1HTx1$1040               Lib_DHTx1
+C:   00000568  A$Lib.DHTx1HTx1$1041               Lib_DHTx1
+C:   0000056A  A$Lib.DHTx1HTx1$1043               Lib_DHTx1
+C:   0000056C  A$Lib.DHTx1HTx1$1046               Lib_DHTx1
+C:   0000056C  C$Lib.DHTx1.c$134$3_0$62           Lib_DHTx1
+C:   0000056F  A$Lib.DHTx1HTx1$1048               Lib_DHTx1
+C:   00000571  A$Lib.DHTx1HTx1$1051               Lib_DHTx1
+C:   00000571  C$Lib.DHTx1.c$136$4_0$70           Lib_DHTx1
+C:   00000574  A$Lib.DHTx1HTx1$1052               Lib_DHTx1
+C:   00000576  A$Lib.DHTx1HTx1$1056               Lib_DHTx1
+C:   00000576  C$Lib.DHTx1.c$104$2_0$61           Lib_DHTx1
+C:   00000577  A$Lib.DHTx1HTx1$1057               Lib_DHTx1
+ASxxxx Linker V03.00 + NoICE + sdld,  page 39.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000093    00000B1A =        2842. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000057A  A$Lib.DHTx1HTx1$1059               Lib_DHTx1
+C:   0000057C  A$Lib.DHTx1HTx1$1060               Lib_DHTx1
+C:   0000057F  A$Lib.DHTx1HTx1$1064               Lib_DHTx1
+C:   0000057F  C$Lib.DHTx1.c$140$1_0$60           Lib_DHTx1
+C:   00000581  A$Lib.DHTx1HTx1$1070               Lib_DHTx1
+C:   00000581  C$Lib.DHTx1.c$141$1_0$60           Lib_DHTx1
+C:   00000581  XG$DHTx1_ReadByte$0$0              Lib_DHTx1
+C:   00000582  A$Lib.DHTx1HTx1$1089               Lib_DHTx1
+C:   00000582  C$Lib.DHTx1.c$145$1_0$72           Lib_DHTx1
+C:   00000582  C$Lib.DHTx1.c$147$2_0$72           Lib_DHTx1
+C:   00000582  C$Lib.DHTx1.c$149$1_0$72           Lib_DHTx1
+C:   00000582  G$DHTx1_ReadData$0$0               Lib_DHTx1
+C:   00000582  _DHTx1_ReadData                    Lib_DHTx1
+C:   00000585  A$Lib.DHTx1HTx1$1090               Lib_DHTx1
+C:   00000588  A$Lib.DHTx1HTx1$1091               Lib_DHTx1
+C:   0000058B  A$Lib.DHTx1HTx1$1092               Lib_DHTx1
+C:   0000058D  A$Lib.DHTx1HTx1$1093               Lib_DHTx1
+C:   0000058F  A$Lib.DHTx1HTx1$1094               Lib_DHTx1
+C:   00000592  A$Lib.DHTx1HTx1$1095               Lib_DHTx1
+C:   00000594  A$Lib.DHTx1HTx1$1096               Lib_DHTx1
+C:   00000596  A$Lib.DHTx1HTx1$1097               Lib_DHTx1
+C:   00000598  A$Lib.DHTx1HTx1$1098               Lib_DHTx1
+C:   0000059B  A$Lib.DHTx1HTx1$1102               Lib_DHTx1
+C:   0000059B  C$Lib.DHTx1.c$152$2_0$73           Lib_DHTx1
+C:   0000059D  A$Lib.DHTx1HTx1$1103               Lib_DHTx1
+C:   0000059F  A$Lib.DHTx1HTx1$1104               Lib_DHTx1
+C:   000005A1  A$Lib.DHTx1HTx1$1105               Lib_DHTx1
+C:   000005A4  A$Lib.DHTx1HTx1$1106               Lib_DHTx1
+C:   000005A7  A$Lib.DHTx1HTx1$1107               Lib_DHTx1
+C:   000005AA  A$Lib.DHTx1HTx1$1108               Lib_DHTx1
+C:   000005AC  A$Lib.DHTx1HTx1$1109               Lib_DHTx1
+C:   000005AE  A$Lib.DHTx1HTx1$1110               Lib_DHTx1
+C:   000005B0  A$Lib.DHTx1HTx1$1111               Lib_DHTx1
+C:   000005B3  A$Lib.DHTx1HTx1$1114               Lib_DHTx1
+C:   000005B3  C$Lib.DHTx1.c$154$1_0$72           Lib_DHTx1
+C:   000005B6  A$Lib.DHTx1HTx1$1118               Lib_DHTx1
+C:   000005B6  C$Lib.DHTx1.c$156$4_0$75           Lib_DHTx1
+C:   000005B8  A$Lib.DHTx1HTx1$1119               Lib_DHTx1
+C:   000005BA  A$Lib.DHTx1HTx1$1120               Lib_DHTx1
+C:   000005BB  A$Lib.DHTx1HTx1$1121               Lib_DHTx1
+C:   000005BC  A$Lib.DHTx1HTx1$1122               Lib_DHTx1
+C:   000005BE  A$Lib.DHTx1HTx1$1123               Lib_DHTx1
+C:   000005BF  A$Lib.DHTx1HTx1$1124               Lib_DHTx1
+C:   000005C1  A$Lib.DHTx1HTx1$1125               Lib_DHTx1
+C:   000005C4  A$Lib.DHTx1HTx1$1126               Lib_DHTx1
+C:   000005C7  A$Lib.DHTx1HTx1$1127               Lib_DHTx1
+C:   000005CA  A$Lib.DHTx1HTx1$1128               Lib_DHTx1
+C:   000005CC  A$Lib.DHTx1HTx1$1129               Lib_DHTx1
+C:   000005CE  A$Lib.DHTx1HTx1$1130               Lib_DHTx1
+C:   000005D0  A$Lib.DHTx1HTx1$1131               Lib_DHTx1
+C:   000005D3  A$Lib.DHTx1HTx1$1132               Lib_DHTx1
+ASxxxx Linker V03.00 + NoICE + sdld,  page 40.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000093    00000B1A =        2842. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000005D5  A$Lib.DHTx1HTx1$1133               Lib_DHTx1
+C:   000005D7  A$Lib.DHTx1HTx1$1134               Lib_DHTx1
+C:   000005D9  A$Lib.DHTx1HTx1$1135               Lib_DHTx1
+C:   000005DB  A$Lib.DHTx1HTx1$1136               Lib_DHTx1
+C:   000005DD  A$Lib.DHTx1HTx1$1137               Lib_DHTx1
+C:   000005DF  A$Lib.DHTx1HTx1$1138               Lib_DHTx1
+C:   000005E1  A$Lib.DHTx1HTx1$1139               Lib_DHTx1
+C:   000005E2  A$Lib.DHTx1HTx1$1140               Lib_DHTx1
+C:   000005E5  A$Lib.DHTx1HTx1$1143               Lib_DHTx1
+C:   000005E5  C$Lib.DHTx1.c$154$3_0$74           Lib_DHTx1
+C:   000005E7  A$Lib.DHTx1HTx1$1144               Lib_DHTx1
+C:   000005E9  A$Lib.DHTx1HTx1$1145               Lib_DHTx1
+C:   000005EB  A$Lib.DHTx1HTx1$1146               Lib_DHTx1
+C:   000005ED  A$Lib.DHTx1HTx1$1149               Lib_DHTx1
+C:   000005ED  C$Lib.DHTx1.c$159$2_0$73           Lib_DHTx1
+C:   000005EF  A$Lib.DHTx1HTx1$1150               Lib_DHTx1
+C:   000005F1  A$Lib.DHTx1HTx1$1151               Lib_DHTx1
+C:   000005F2  A$Lib.DHTx1HTx1$1152               Lib_DHTx1
+C:   000005F3  A$Lib.DHTx1HTx1$1153               Lib_DHTx1
+C:   000005F5  A$Lib.DHTx1HTx1$1154               Lib_DHTx1
+C:   000005F6  A$Lib.DHTx1HTx1$1155               Lib_DHTx1
+C:   000005F8  A$Lib.DHTx1HTx1$1156               Lib_DHTx1
+C:   000005FA  A$Lib.DHTx1HTx1$1157               Lib_DHTx1
+C:   000005FC  A$Lib.DHTx1HTx1$1158               Lib_DHTx1
+C:   000005FD  A$Lib.DHTx1HTx1$1159               Lib_DHTx1
+C:   000005FE  A$Lib.DHTx1HTx1$1160               Lib_DHTx1
+C:   00000600  A$Lib.DHTx1HTx1$1161               Lib_DHTx1
+C:   00000601  A$Lib.DHTx1HTx1$1162               Lib_DHTx1
+C:   00000603  A$Lib.DHTx1HTx1$1163               Lib_DHTx1
+C:   00000605  A$Lib.DHTx1HTx1$1164               Lib_DHTx1
+C:   00000607  A$Lib.DHTx1HTx1$1165               Lib_DHTx1
+C:   00000609  A$Lib.DHTx1HTx1$1166               Lib_DHTx1
+C:   0000060C  A$Lib.DHTx1HTx1$1167               Lib_DHTx1
+C:   0000060D  A$Lib.DHTx1HTx1$1168               Lib_DHTx1
+C:   00000610  A$Lib.DHTx1HTx1$1169               Lib_DHTx1
+C:   00000613  A$Lib.DHTx1HTx1$1170               Lib_DHTx1
+C:   00000616  A$Lib.DHTx1HTx1$1171               Lib_DHTx1
+C:   00000619  A$Lib.DHTx1HTx1$1172               Lib_DHTx1
+C:   0000061A  A$Lib.DHTx1HTx1$1173               Lib_DHTx1
+C:   0000061B  A$Lib.DHTx1HTx1$1176               Lib_DHTx1
+C:   0000061B  C$Lib.DHTx1.c$160$2_0$73           Lib_DHTx1
+C:   0000061D  A$Lib.DHTx1HTx1$1177               Lib_DHTx1
+C:   0000061F  A$Lib.DHTx1HTx1$1178               Lib_DHTx1
+C:   00000620  A$Lib.DHTx1HTx1$1179               Lib_DHTx1
+C:   00000621  A$Lib.DHTx1HTx1$1180               Lib_DHTx1
+C:   00000623  A$Lib.DHTx1HTx1$1181               Lib_DHTx1
+C:   00000624  A$Lib.DHTx1HTx1$1182               Lib_DHTx1
+C:   00000626  A$Lib.DHTx1HTx1$1183               Lib_DHTx1
+C:   00000628  A$Lib.DHTx1HTx1$1184               Lib_DHTx1
+C:   0000062A  A$Lib.DHTx1HTx1$1185               Lib_DHTx1
+C:   0000062C  A$Lib.DHTx1HTx1$1186               Lib_DHTx1
+ASxxxx Linker V03.00 + NoICE + sdld,  page 41.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000093    00000B1A =        2842. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000062F  A$Lib.DHTx1HTx1$1187               Lib_DHTx1
+C:   00000630  A$Lib.DHTx1HTx1$1188               Lib_DHTx1
+C:   00000631  A$Lib.DHTx1HTx1$1189               Lib_DHTx1
+C:   00000633  A$Lib.DHTx1HTx1$1190               Lib_DHTx1
+C:   00000635  A$Lib.DHTx1HTx1$1191               Lib_DHTx1
+C:   00000636  A$Lib.DHTx1HTx1$1192               Lib_DHTx1
+C:   00000637  A$Lib.DHTx1HTx1$1193               Lib_DHTx1
+C:   00000639  A$Lib.DHTx1HTx1$1194               Lib_DHTx1
+C:   0000063A  A$Lib.DHTx1HTx1$1195               Lib_DHTx1
+C:   0000063C  A$Lib.DHTx1HTx1$1196               Lib_DHTx1
+C:   0000063E  A$Lib.DHTx1HTx1$1197               Lib_DHTx1
+C:   00000640  A$Lib.DHTx1HTx1$1198               Lib_DHTx1
+C:   00000642  A$Lib.DHTx1HTx1$1199               Lib_DHTx1
+C:   00000645  A$Lib.DHTx1HTx1$1200               Lib_DHTx1
+C:   00000646  A$Lib.DHTx1HTx1$1201               Lib_DHTx1
+C:   00000647  A$Lib.DHTx1HTx1$1202               Lib_DHTx1
+C:   00000648  A$Lib.DHTx1HTx1$1203               Lib_DHTx1
+C:   0000064A  A$Lib.DHTx1HTx1$1204               Lib_DHTx1
+C:   0000064C  A$Lib.DHTx1HTx1$1205               Lib_DHTx1
+C:   0000064E  A$Lib.DHTx1HTx1$1206               Lib_DHTx1
+C:   00000651  A$Lib.DHTx1HTx1$1207               Lib_DHTx1
+C:   00000652  A$Lib.DHTx1HTx1$1208               Lib_DHTx1
+C:   00000655  A$Lib.DHTx1HTx1$1209               Lib_DHTx1
+C:   00000657  A$Lib.DHTx1HTx1$1210               Lib_DHTx1
+C:   00000659  A$Lib.DHTx1HTx1$1212               Lib_DHTx1
+C:   0000065A  A$Lib.DHTx1HTx1$1214               Lib_DHTx1
+C:   0000065B  A$Lib.DHTx1HTx1$1218               Lib_DHTx1
+C:   0000065B  C$Lib.DHTx1.c$163$1_0$72           Lib_DHTx1
+C:   0000065D  A$Lib.DHTx1HTx1$1223               Lib_DHTx1
+C:   0000065D  C$Lib.DHTx1.c$164$1_0$72           Lib_DHTx1
+C:   0000065D  XG$DHTx1_ReadData$0$0              Lib_DHTx1
+C:   0000065E  A$Lib.DHTx1HTx1$1239               Lib_DHTx1
+C:   0000065E  C$Lib.DHTx1.c$167$1_0$77           Lib_DHTx1
+C:   0000065E  G$DHTx1_IsShortOfReadTime$0$0      Lib_DHTx1
+C:   0000065E  _DHTx1_IsShortOfReadTime           Lib_DHTx1
+C:   00000660  A$Lib.DHTx1HTx1$1240               Lib_DHTx1
+C:   00000662  A$Lib.DHTx1HTx1$1241               Lib_DHTx1
+C:   00000664  A$Lib.DHTx1HTx1$1244               Lib_DHTx1
+C:   00000664  C$Lib.DHTx1.c$169$2_0$77           Lib_DHTx1
+C:   00000666  A$Lib.DHTx1HTx1$1247               Lib_DHTx1
+C:   00000666  C$Lib.DHTx1.c$172$1_0$77           Lib_DHTx1
+C:   00000668  A$Lib.DHTx1HTx1$1248               Lib_DHTx1
+C:   00000669  A$Lib.DHTx1HTx1$1249               Lib_DHTx1
+C:   0000066A  A$Lib.DHTx1HTx1$1250               Lib_DHTx1
+C:   0000066B  A$Lib.DHTx1HTx1$1251               Lib_DHTx1
+C:   0000066C  A$Lib.DHTx1HTx1$1252               Lib_DHTx1
+C:   0000066D  A$Lib.DHTx1HTx1$1253               Lib_DHTx1
+C:   0000066F  A$Lib.DHTx1HTx1$1254               Lib_DHTx1
+C:   00000671  A$Lib.DHTx1HTx1$1255               Lib_DHTx1
+C:   00000673  A$Lib.DHTx1HTx1$1256               Lib_DHTx1
+C:   00000676  A$Lib.DHTx1HTx1$1257               Lib_DHTx1
+ASxxxx Linker V03.00 + NoICE + sdld,  page 42.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000093    00000B1A =        2842. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000677  A$Lib.DHTx1HTx1$1258               Lib_DHTx1
+C:   00000678  A$Lib.DHTx1HTx1$1259               Lib_DHTx1
+C:   0000067B  A$Lib.DHTx1HTx1$1260               Lib_DHTx1
+C:   0000067C  A$Lib.DHTx1HTx1$1261               Lib_DHTx1
+C:   0000067D  A$Lib.DHTx1HTx1$1262               Lib_DHTx1
+C:   00000680  A$Lib.DHTx1HTx1$1263               Lib_DHTx1
+C:   00000681  A$Lib.DHTx1HTx1$1264               Lib_DHTx1
+C:   00000682  A$Lib.DHTx1HTx1$1265               Lib_DHTx1
+C:   00000685  A$Lib.DHTx1HTx1$1266               Lib_DHTx1
+C:   00000686  A$Lib.DHTx1HTx1$1267               Lib_DHTx1
+C:   00000687  A$Lib.DHTx1HTx1$1268               Lib_DHTx1
+C:   00000688  A$Lib.DHTx1HTx1$1269               Lib_DHTx1
+C:   00000689  A$Lib.DHTx1HTx1$1270               Lib_DHTx1
+C:   0000068A  A$Lib.DHTx1HTx1$1271               Lib_DHTx1
+C:   0000068B  A$Lib.DHTx1HTx1$1272               Lib_DHTx1
+C:   0000068C  A$Lib.DHTx1HTx1$1273               Lib_DHTx1
+C:   0000068D  A$Lib.DHTx1HTx1$1274               Lib_DHTx1
+C:   0000068E  A$Lib.DHTx1HTx1$1275               Lib_DHTx1
+C:   0000068F  A$Lib.DHTx1HTx1$1276               Lib_DHTx1
+C:   00000690  A$Lib.DHTx1HTx1$1277               Lib_DHTx1
+C:   00000691  A$Lib.DHTx1HTx1$1278               Lib_DHTx1
+C:   00000692  A$Lib.DHTx1HTx1$1279               Lib_DHTx1
+C:   00000693  A$Lib.DHTx1HTx1$1280               Lib_DHTx1
+C:   00000694  A$Lib.DHTx1HTx1$1281               Lib_DHTx1
+C:   00000695  A$Lib.DHTx1HTx1$1282               Lib_DHTx1
+C:   00000697  A$Lib.DHTx1HTx1$1283               Lib_DHTx1
+C:   00000698  A$Lib.DHTx1HTx1$1284               Lib_DHTx1
+C:   0000069A  A$Lib.DHTx1HTx1$1285               Lib_DHTx1
+C:   0000069B  A$Lib.DHTx1HTx1$1286               Lib_DHTx1
+C:   0000069D  A$Lib.DHTx1HTx1$1287               Lib_DHTx1
+C:   0000069E  A$Lib.DHTx1HTx1$1288               Lib_DHTx1
+C:   000006A0  A$Lib.DHTx1HTx1$1289               Lib_DHTx1
+C:   000006A2  A$Lib.DHTx1HTx1$1292               Lib_DHTx1
+C:   000006A2  C$Lib.DHTx1.c$174$2_0$78           Lib_DHTx1
+C:   000006A4  A$Lib.DHTx1HTx1$1293               Lib_DHTx1
+C:   000006A6  A$Lib.DHTx1HTx1$1297               Lib_DHTx1
+C:   000006A6  C$Lib.DHTx1.c$178$2_0$79           Lib_DHTx1
+C:   000006A8  A$Lib.DHTx1HTx1$1298               Lib_DHTx1
+C:   000006AA  A$Lib.DHTx1HTx1$1299               Lib_DHTx1
+C:   000006AC  A$Lib.DHTx1HTx1$1300               Lib_DHTx1
+C:   000006AD  A$Lib.DHTx1HTx1$1301               Lib_DHTx1
+C:   000006B0  A$Lib.DHTx1HTx1$1302               Lib_DHTx1
+C:   000006B1  A$Lib.DHTx1HTx1$1303               Lib_DHTx1
+C:   000006B4  A$Lib.DHTx1HTx1$1304               Lib_DHTx1
+C:   000006B5  A$Lib.DHTx1HTx1$1305               Lib_DHTx1
+C:   000006B8  A$Lib.DHTx1HTx1$1306               Lib_DHTx1
+C:   000006B9  A$Lib.DHTx1HTx1$1307               Lib_DHTx1
+C:   000006BC  A$Lib.DHTx1HTx1$1311               Lib_DHTx1
+C:   000006BC  C$Lib.DHTx1.c$181$1_0$77           Lib_DHTx1
+C:   000006BE  A$Lib.DHTx1HTx1$1316               Lib_DHTx1
+C:   000006BE  C$Lib.DHTx1.c$182$1_0$77           Lib_DHTx1
+ASxxxx Linker V03.00 + NoICE + sdld,  page 43.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000093    00000B1A =        2842. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000006BE  XG$DHTx1_IsShortOfReadTime$0$0     Lib_DHTx1
+C:   000006BF  A$Lib.DHTx1HTx1$1332               Lib_DHTx1
+C:   000006BF  C$Lib.DHTx1.c$186$1_0$81           Lib_DHTx1
+C:   000006BF  C$Lib.DHTx1.c$190$1_0$81           Lib_DHTx1
+C:   000006BF  G$DHTx1_IsDataChanged$0$0          Lib_DHTx1
+C:   000006BF  _DHTx1_IsDataChanged               Lib_DHTx1
+C:   000006C2  A$Lib.DHTx1HTx1$1337               Lib_DHTx1
+C:   000006C2  C$Lib.DHTx1.c$191$1_0$81           Lib_DHTx1
+C:   000006C2  XG$DHTx1_IsDataChanged$0$0         Lib_DHTx1
+C:   000006C3  A$Lib.DHTx1HTx1$1351               Lib_DHTx1
+C:   000006C3  C$Lib.DHTx1.c$195$1_0$83           Lib_DHTx1
+C:   000006C3  G$DHTx1_GetTemperature$0$0         Lib_DHTx1
+C:   000006C3  _DHTx1_GetTemperature              Lib_DHTx1
+C:   000006C6  A$Lib.DHTx1HTx1$1352               Lib_DHTx1
+C:   000006C9  A$Lib.DHTx1HTx1$1353               Lib_DHTx1
+C:   000006CC  A$Lib.DHTx1HTx1$1358               Lib_DHTx1
+C:   000006CC  C$Lib.DHTx1.c$197$2_0$83           Lib_DHTx1
+C:   000006CC  C$Lib.DHTx1.c$199$1_0$83           Lib_DHTx1
+C:   000006CD  A$Lib.DHTx1HTx1$1359               Lib_DHTx1
+C:   000006CE  A$Lib.DHTx1HTx1$1360               Lib_DHTx1
+C:   000006CF  A$Lib.DHTx1HTx1$1361               Lib_DHTx1
+C:   000006D1  A$Lib.DHTx1HTx1$1362               Lib_DHTx1
+C:   000006D3  A$Lib.DHTx1HTx1$1363               Lib_DHTx1
+C:   000006D4  A$Lib.DHTx1HTx1$1364               Lib_DHTx1
+C:   000006D5  A$Lib.DHTx1HTx1$1365               Lib_DHTx1
+C:   000006D7  A$Lib.DHTx1HTx1$1366               Lib_DHTx1
+C:   000006D8  A$Lib.DHTx1HTx1$1367               Lib_DHTx1
+C:   000006DA  A$Lib.DHTx1HTx1$1368               Lib_DHTx1
+C:   000006DC  A$Lib.DHTx1HTx1$1369               Lib_DHTx1
+C:   000006DE  A$Lib.DHTx1HTx1$1370               Lib_DHTx1
+C:   000006E0  A$Lib.DHTx1HTx1$1371               Lib_DHTx1
+C:   000006E3  A$Lib.DHTx1HTx1$1372               Lib_DHTx1
+C:   000006E4  A$Lib.DHTx1HTx1$1373               Lib_DHTx1
+C:   000006E6  A$Lib.DHTx1HTx1$1376               Lib_DHTx1
+C:   000006E6  C$Lib.DHTx1.c$201$2_0$84           Lib_DHTx1
+C:   000006E8  A$Lib.DHTx1HTx1$1377               Lib_DHTx1
+C:   000006EA  A$Lib.DHTx1HTx1$1378               Lib_DHTx1
+C:   000006EB  A$Lib.DHTx1HTx1$1379               Lib_DHTx1
+C:   000006EC  A$Lib.DHTx1HTx1$1380               Lib_DHTx1
+C:   000006EE  A$Lib.DHTx1HTx1$1381               Lib_DHTx1
+C:   000006EF  A$Lib.DHTx1HTx1$1382               Lib_DHTx1
+C:   000006F1  A$Lib.DHTx1HTx1$1383               Lib_DHTx1
+C:   000006F3  A$Lib.DHTx1HTx1$1384               Lib_DHTx1
+C:   000006F5  A$Lib.DHTx1HTx1$1385               Lib_DHTx1
+C:   000006F7  A$Lib.DHTx1HTx1$1386               Lib_DHTx1
+C:   000006FA  A$Lib.DHTx1HTx1$1387               Lib_DHTx1
+C:   000006FB  A$Lib.DHTx1HTx1$1388               Lib_DHTx1
+C:   000006FD  A$Lib.DHTx1HTx1$1389               Lib_DHTx1
+C:   00000700  A$Lib.DHTx1HTx1$1390               Lib_DHTx1
+C:   00000703  A$Lib.DHTx1HTx1$1391               Lib_DHTx1
+C:   00000706  A$Lib.DHTx1HTx1$1392               Lib_DHTx1
+ASxxxx Linker V03.00 + NoICE + sdld,  page 44.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000093    00000B1A =        2842. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000708  A$Lib.DHTx1HTx1$1393               Lib_DHTx1
+C:   0000070A  A$Lib.DHTx1HTx1$1394               Lib_DHTx1
+C:   0000070C  A$Lib.DHTx1HTx1$1395               Lib_DHTx1
+C:   0000070E  A$Lib.DHTx1HTx1$1396               Lib_DHTx1
+C:   0000070F  A$Lib.DHTx1HTx1$1397               Lib_DHTx1
+C:   00000710  A$Lib.DHTx1HTx1$1398               Lib_DHTx1
+C:   00000712  A$Lib.DHTx1HTx1$1399               Lib_DHTx1
+C:   00000713  A$Lib.DHTx1HTx1$1400               Lib_DHTx1
+C:   00000715  A$Lib.DHTx1HTx1$1401               Lib_DHTx1
+C:   00000717  A$Lib.DHTx1HTx1$1402               Lib_DHTx1
+C:   00000719  A$Lib.DHTx1HTx1$1403               Lib_DHTx1
+C:   0000071B  A$Lib.DHTx1HTx1$1404               Lib_DHTx1
+C:   0000071E  A$Lib.DHTx1HTx1$1405               Lib_DHTx1
+C:   0000071F  A$Lib.DHTx1HTx1$1406               Lib_DHTx1
+C:   00000721  A$Lib.DHTx1HTx1$1407               Lib_DHTx1
+C:   00000722  A$Lib.DHTx1HTx1$1408               Lib_DHTx1
+C:   00000723  A$Lib.DHTx1HTx1$1409               Lib_DHTx1
+C:   00000724  A$Lib.DHTx1HTx1$1410               Lib_DHTx1
+C:   00000725  A$Lib.DHTx1HTx1$1411               Lib_DHTx1
+C:   00000726  A$Lib.DHTx1HTx1$1412               Lib_DHTx1
+C:   00000728  A$Lib.DHTx1HTx1$1413               Lib_DHTx1
+C:   0000072A  A$Lib.DHTx1HTx1$1414               Lib_DHTx1
+C:   0000072C  A$Lib.DHTx1HTx1$1418               Lib_DHTx1
+C:   0000072C  C$Lib.DHTx1.c$203$1_0$83           Lib_DHTx1
+C:   0000072F  A$Lib.DHTx1HTx1$1421               Lib_DHTx1
+C:   0000072F  C$Lib.DHTx1.c$205$2_0$85           Lib_DHTx1
+C:   00000731  A$Lib.DHTx1HTx1$1422               Lib_DHTx1
+C:   00000733  A$Lib.DHTx1HTx1$1423               Lib_DHTx1
+C:   00000734  A$Lib.DHTx1HTx1$1424               Lib_DHTx1
+C:   00000735  A$Lib.DHTx1HTx1$1425               Lib_DHTx1
+C:   00000737  A$Lib.DHTx1HTx1$1426               Lib_DHTx1
+C:   00000738  A$Lib.DHTx1HTx1$1427               Lib_DHTx1
+C:   0000073A  A$Lib.DHTx1HTx1$1428               Lib_DHTx1
+C:   0000073C  A$Lib.DHTx1HTx1$1429               Lib_DHTx1
+C:   0000073E  A$Lib.DHTx1HTx1$1430               Lib_DHTx1
+C:   00000740  A$Lib.DHTx1HTx1$1431               Lib_DHTx1
+C:   00000743  A$Lib.DHTx1HTx1$1432               Lib_DHTx1
+C:   00000744  A$Lib.DHTx1HTx1$1433               Lib_DHTx1
+C:   00000746  A$Lib.DHTx1HTx1$1434               Lib_DHTx1
+C:   00000748  A$Lib.DHTx1HTx1$1435               Lib_DHTx1
+C:   0000074A  A$Lib.DHTx1HTx1$1436               Lib_DHTx1
+C:   0000074B  A$Lib.DHTx1HTx1$1437               Lib_DHTx1
+C:   0000074C  A$Lib.DHTx1HTx1$1438               Lib_DHTx1
+C:   0000074E  A$Lib.DHTx1HTx1$1439               Lib_DHTx1
+C:   0000074F  A$Lib.DHTx1HTx1$1440               Lib_DHTx1
+C:   00000751  A$Lib.DHTx1HTx1$1441               Lib_DHTx1
+C:   00000753  A$Lib.DHTx1HTx1$1442               Lib_DHTx1
+C:   00000755  A$Lib.DHTx1HTx1$1443               Lib_DHTx1
+C:   00000757  A$Lib.DHTx1HTx1$1444               Lib_DHTx1
+C:   0000075A  A$Lib.DHTx1HTx1$1445               Lib_DHTx1
+C:   0000075B  A$Lib.DHTx1HTx1$1446               Lib_DHTx1
+ASxxxx Linker V03.00 + NoICE + sdld,  page 45.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000093    00000B1A =        2842. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000075D  A$Lib.DHTx1HTx1$1447               Lib_DHTx1
+C:   0000075E  A$Lib.DHTx1HTx1$1448               Lib_DHTx1
+C:   0000075F  A$Lib.DHTx1HTx1$1449               Lib_DHTx1
+C:   00000760  A$Lib.DHTx1HTx1$1450               Lib_DHTx1
+C:   00000761  A$Lib.DHTx1HTx1$1451               Lib_DHTx1
+C:   00000762  A$Lib.DHTx1HTx1$1455               Lib_DHTx1
+C:   00000762  C$Lib.DHTx1.c$208$1_0$83           Lib_DHTx1
+C:   00000764  A$Lib.DHTx1HTx1$1456               Lib_DHTx1
+C:   00000766  A$Lib.DHTx1HTx1$1461               Lib_DHTx1
+C:   00000766  C$Lib.DHTx1.c$209$1_0$83           Lib_DHTx1
+C:   00000766  XG$DHTx1_GetTemperature$0$0        Lib_DHTx1
+C:   00000767  A$Lib.DHTx1HTx1$1475               Lib_DHTx1
+C:   00000767  C$Lib.DHTx1.c$213$1_0$87           Lib_DHTx1
+C:   00000767  G$DHTx1_GetHumidity$0$0            Lib_DHTx1
+C:   00000767  _DHTx1_GetHumidity                 Lib_DHTx1
+C:   0000076A  A$Lib.DHTx1HTx1$1476               Lib_DHTx1
+C:   0000076D  A$Lib.DHTx1HTx1$1477               Lib_DHTx1
+C:   00000770  A$Lib.DHTx1HTx1$1482               Lib_DHTx1
+C:   00000770  C$Lib.DHTx1.c$215$2_0$87           Lib_DHTx1
+C:   00000770  C$Lib.DHTx1.c$217$1_0$87           Lib_DHTx1
+C:   00000771  A$Lib.DHTx1HTx1$1483               Lib_DHTx1
+C:   00000772  A$Lib.DHTx1HTx1$1484               Lib_DHTx1
+C:   00000773  A$Lib.DHTx1HTx1$1485               Lib_DHTx1
+C:   00000775  A$Lib.DHTx1HTx1$1486               Lib_DHTx1
+C:   00000777  A$Lib.DHTx1HTx1$1487               Lib_DHTx1
+C:   00000778  A$Lib.DHTx1HTx1$1488               Lib_DHTx1
+C:   00000779  A$Lib.DHTx1HTx1$1489               Lib_DHTx1
+C:   0000077B  A$Lib.DHTx1HTx1$1490               Lib_DHTx1
+C:   0000077C  A$Lib.DHTx1HTx1$1491               Lib_DHTx1
+C:   0000077E  A$Lib.DHTx1HTx1$1492               Lib_DHTx1
+C:   00000780  A$Lib.DHTx1HTx1$1493               Lib_DHTx1
+C:   00000782  A$Lib.DHTx1HTx1$1494               Lib_DHTx1
+C:   00000784  A$Lib.DHTx1HTx1$1495               Lib_DHTx1
+C:   00000787  A$Lib.DHTx1HTx1$1496               Lib_DHTx1
+C:   00000788  A$Lib.DHTx1HTx1$1497               Lib_DHTx1
+C:   0000078A  A$Lib.DHTx1HTx1$1500               Lib_DHTx1
+C:   0000078A  C$Lib.DHTx1.c$219$2_0$88           Lib_DHTx1
+C:   0000078D  A$Lib.DHTx1HTx1$1501               Lib_DHTx1
+C:   00000790  A$Lib.DHTx1HTx1$1502               Lib_DHTx1
+C:   00000793  A$Lib.DHTx1HTx1$1503               Lib_DHTx1
+C:   00000796  A$Lib.DHTx1HTx1$1504               Lib_DHTx1
+C:   00000797  A$Lib.DHTx1HTx1$1505               Lib_DHTx1
+C:   00000799  A$Lib.DHTx1HTx1$1506               Lib_DHTx1
+C:   0000079C  A$Lib.DHTx1HTx1$1507               Lib_DHTx1
+C:   0000079F  A$Lib.DHTx1HTx1$1508               Lib_DHTx1
+C:   000007A2  A$Lib.DHTx1HTx1$1509               Lib_DHTx1
+C:   000007A4  A$Lib.DHTx1HTx1$1510               Lib_DHTx1
+C:   000007A6  A$Lib.DHTx1HTx1$1511               Lib_DHTx1
+C:   000007A8  A$Lib.DHTx1HTx1$1512               Lib_DHTx1
+C:   000007AA  A$Lib.DHTx1HTx1$1513               Lib_DHTx1
+C:   000007AB  A$Lib.DHTx1HTx1$1514               Lib_DHTx1
+ASxxxx Linker V03.00 + NoICE + sdld,  page 46.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000093    00000B1A =        2842. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000007AC  A$Lib.DHTx1HTx1$1515               Lib_DHTx1
+C:   000007AE  A$Lib.DHTx1HTx1$1516               Lib_DHTx1
+C:   000007AF  A$Lib.DHTx1HTx1$1517               Lib_DHTx1
+C:   000007B1  A$Lib.DHTx1HTx1$1518               Lib_DHTx1
+C:   000007B3  A$Lib.DHTx1HTx1$1519               Lib_DHTx1
+C:   000007B5  A$Lib.DHTx1HTx1$1520               Lib_DHTx1
+C:   000007B7  A$Lib.DHTx1HTx1$1521               Lib_DHTx1
+C:   000007BA  A$Lib.DHTx1HTx1$1522               Lib_DHTx1
+C:   000007BB  A$Lib.DHTx1HTx1$1523               Lib_DHTx1
+C:   000007BD  A$Lib.DHTx1HTx1$1524               Lib_DHTx1
+C:   000007BE  A$Lib.DHTx1HTx1$1525               Lib_DHTx1
+C:   000007BF  A$Lib.DHTx1HTx1$1526               Lib_DHTx1
+C:   000007C0  A$Lib.DHTx1HTx1$1527               Lib_DHTx1
+C:   000007C1  A$Lib.DHTx1HTx1$1528               Lib_DHTx1
+C:   000007C2  A$Lib.DHTx1HTx1$1529               Lib_DHTx1
+C:   000007C4  A$Lib.DHTx1HTx1$1530               Lib_DHTx1
+C:   000007C6  A$Lib.DHTx1HTx1$1531               Lib_DHTx1
+C:   000007C8  A$Lib.DHTx1HTx1$1535               Lib_DHTx1
+C:   000007C8  C$Lib.DHTx1.c$221$1_0$87           Lib_DHTx1
+C:   000007CB  A$Lib.DHTx1HTx1$1538               Lib_DHTx1
+C:   000007CB  C$Lib.DHTx1.c$223$2_0$89           Lib_DHTx1
+C:   000007CE  A$Lib.DHTx1HTx1$1539               Lib_DHTx1
+C:   000007D1  A$Lib.DHTx1HTx1$1540               Lib_DHTx1
+C:   000007D4  A$Lib.DHTx1HTx1$1541               Lib_DHTx1
+C:   000007D7  A$Lib.DHTx1HTx1$1542               Lib_DHTx1
+C:   000007D8  A$Lib.DHTx1HTx1$1543               Lib_DHTx1
+C:   000007DA  A$Lib.DHTx1HTx1$1544               Lib_DHTx1
+C:   000007DC  A$Lib.DHTx1HTx1$1545               Lib_DHTx1
+C:   000007DE  A$Lib.DHTx1HTx1$1546               Lib_DHTx1
+C:   000007DF  A$Lib.DHTx1HTx1$1547               Lib_DHTx1
+C:   000007E0  A$Lib.DHTx1HTx1$1548               Lib_DHTx1
+C:   000007E2  A$Lib.DHTx1HTx1$1549               Lib_DHTx1
+C:   000007E3  A$Lib.DHTx1HTx1$1550               Lib_DHTx1
+C:   000007E5  A$Lib.DHTx1HTx1$1551               Lib_DHTx1
+C:   000007E7  A$Lib.DHTx1HTx1$1552               Lib_DHTx1
+C:   000007E9  A$Lib.DHTx1HTx1$1553               Lib_DHTx1
+C:   000007EB  A$Lib.DHTx1HTx1$1554               Lib_DHTx1
+C:   000007EE  A$Lib.DHTx1HTx1$1555               Lib_DHTx1
+C:   000007EF  A$Lib.DHTx1HTx1$1556               Lib_DHTx1
+C:   000007F1  A$Lib.DHTx1HTx1$1557               Lib_DHTx1
+C:   000007F2  A$Lib.DHTx1HTx1$1558               Lib_DHTx1
+C:   000007F3  A$Lib.DHTx1HTx1$1559               Lib_DHTx1
+C:   000007F4  A$Lib.DHTx1HTx1$1560               Lib_DHTx1
+C:   000007F5  A$Lib.DHTx1HTx1$1561               Lib_DHTx1
+C:   000007F6  A$Lib.DHTx1HTx1$1565               Lib_DHTx1
+C:   000007F6  C$Lib.DHTx1.c$226$1_0$87           Lib_DHTx1
+C:   000007F8  A$Lib.DHTx1HTx1$1566               Lib_DHTx1
+C:   000007FA  A$Lib.DHTx1HTx1$1571               Lib_DHTx1
+C:   000007FA  C$Lib.DHTx1.c$227$1_0$87           Lib_DHTx1
+C:   000007FA  XG$DHTx1_GetHumidity$0$0           Lib_DHTx1
+C:   000007FB  A$Lib.DHTx1HTx1$1587               Lib_DHTx1
+ASxxxx Linker V03.00 + NoICE + sdld,  page 47.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000093    00000B1A =        2842. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000007FB  C$Lib.DHTx1.c$231$1_0$91           Lib_DHTx1
+C:   000007FB  G$DHTx1_GetHumidityAndTemperatur   Lib_DHTx1
+C:   000007FB  _DHTx1_GetHumidityAndTemperature   Lib_DHTx1
+C:   000007FE  A$Lib.DHTx1HTx1$1588               Lib_DHTx1
+C:   00000801  A$Lib.DHTx1HTx1$1589               Lib_DHTx1
+C:   00000804  A$Lib.DHTx1HTx1$1592               Lib_DHTx1
+C:   00000804  C$Lib.DHTx1.c$234$1_0$91           Lib_DHTx1
+C:   00000806  A$Lib.DHTx1HTx1$1593               Lib_DHTx1
+C:   00000808  A$Lib.DHTx1HTx1$1594               Lib_DHTx1
+C:   00000809  A$Lib.DHTx1HTx1$1595               Lib_DHTx1
+C:   0000080A  A$Lib.DHTx1HTx1$1596               Lib_DHTx1
+C:   0000080C  A$Lib.DHTx1HTx1$1597               Lib_DHTx1
+C:   0000080D  A$Lib.DHTx1HTx1$1598               Lib_DHTx1
+C:   0000080F  A$Lib.DHTx1HTx1$1599               Lib_DHTx1
+C:   00000811  A$Lib.DHTx1HTx1$1600               Lib_DHTx1
+C:   00000813  A$Lib.DHTx1HTx1$1601               Lib_DHTx1
+C:   00000815  A$Lib.DHTx1HTx1$1602               Lib_DHTx1
+C:   00000818  A$Lib.DHTx1HTx1$1603               Lib_DHTx1
+C:   00000819  A$Lib.DHTx1HTx1$1604               Lib_DHTx1
+C:   0000081B  A$Lib.DHTx1HTx1$1605               Lib_DHTx1
+C:   0000081E  A$Lib.DHTx1HTx1$1609               Lib_DHTx1
+C:   0000081E  C$Lib.DHTx1.c$236$2_0$92           Lib_DHTx1
+C:   00000820  A$Lib.DHTx1HTx1$1610               Lib_DHTx1
+C:   00000822  A$Lib.DHTx1HTx1$1611               Lib_DHTx1
+C:   00000824  A$Lib.DHTx1HTx1$1612               Lib_DHTx1
+C:   00000827  A$Lib.DHTx1HTx1$1613               Lib_DHTx1
+C:   0000082A  A$Lib.DHTx1HTx1$1614               Lib_DHTx1
+C:   0000082D  A$Lib.DHTx1HTx1$1615               Lib_DHTx1
+C:   00000830  A$Lib.DHTx1HTx1$1616               Lib_DHTx1
+C:   00000831  A$Lib.DHTx1HTx1$1617               Lib_DHTx1
+C:   00000833  A$Lib.DHTx1HTx1$1618               Lib_DHTx1
+C:   00000836  A$Lib.DHTx1HTx1$1619               Lib_DHTx1
+C:   00000839  A$Lib.DHTx1HTx1$1620               Lib_DHTx1
+C:   0000083B  A$Lib.DHTx1HTx1$1621               Lib_DHTx1
+C:   0000083D  A$Lib.DHTx1HTx1$1622               Lib_DHTx1
+C:   0000083F  A$Lib.DHTx1HTx1$1623               Lib_DHTx1
+C:   00000842  A$Lib.DHTx1HTx1$1624               Lib_DHTx1
+C:   00000845  A$Lib.DHTx1HTx1$1625               Lib_DHTx1
+C:   00000848  A$Lib.DHTx1HTx1$1626               Lib_DHTx1
+C:   0000084A  A$Lib.DHTx1HTx1$1627               Lib_DHTx1
+C:   0000084C  A$Lib.DHTx1HTx1$1628               Lib_DHTx1
+C:   0000084E  A$Lib.DHTx1HTx1$1629               Lib_DHTx1
+C:   00000850  A$Lib.DHTx1HTx1$1630               Lib_DHTx1
+C:   00000852  A$Lib.DHTx1HTx1$1631               Lib_DHTx1
+C:   00000853  A$Lib.DHTx1HTx1$1632               Lib_DHTx1
+C:   00000854  A$Lib.DHTx1HTx1$1633               Lib_DHTx1
+C:   00000856  A$Lib.DHTx1HTx1$1634               Lib_DHTx1
+C:   00000857  A$Lib.DHTx1HTx1$1635               Lib_DHTx1
+C:   00000859  A$Lib.DHTx1HTx1$1636               Lib_DHTx1
+C:   0000085B  A$Lib.DHTx1HTx1$1637               Lib_DHTx1
+C:   0000085D  A$Lib.DHTx1HTx1$1638               Lib_DHTx1
+ASxxxx Linker V03.00 + NoICE + sdld,  page 48.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000093    00000B1A =        2842. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000085F  A$Lib.DHTx1HTx1$1639               Lib_DHTx1
+C:   00000862  A$Lib.DHTx1HTx1$1640               Lib_DHTx1
+C:   00000864  A$Lib.DHTx1HTx1$1641               Lib_DHTx1
+C:   00000866  A$Lib.DHTx1HTx1$1642               Lib_DHTx1
+C:   00000867  A$Lib.DHTx1HTx1$1643               Lib_DHTx1
+C:   00000868  A$Lib.DHTx1HTx1$1644               Lib_DHTx1
+C:   0000086A  A$Lib.DHTx1HTx1$1645               Lib_DHTx1
+C:   0000086B  A$Lib.DHTx1HTx1$1646               Lib_DHTx1
+C:   0000086D  A$Lib.DHTx1HTx1$1647               Lib_DHTx1
+C:   0000086F  A$Lib.DHTx1HTx1$1648               Lib_DHTx1
+C:   00000871  A$Lib.DHTx1HTx1$1649               Lib_DHTx1
+C:   00000872  A$Lib.DHTx1HTx1$1650               Lib_DHTx1
+C:   00000875  A$Lib.DHTx1HTx1$1651               Lib_DHTx1
+C:   00000876  A$Lib.DHTx1HTx1$1652               Lib_DHTx1
+C:   00000877  A$Lib.DHTx1HTx1$1653               Lib_DHTx1
+C:   0000087A  A$Lib.DHTx1HTx1$1656               Lib_DHTx1
+C:   0000087A  C$Lib.DHTx1.c$237$2_0$92           Lib_DHTx1
+C:   0000087C  A$Lib.DHTx1HTx1$1657               Lib_DHTx1
+C:   0000087E  A$Lib.DHTx1HTx1$1658               Lib_DHTx1
+C:   00000880  A$Lib.DHTx1HTx1$1659               Lib_DHTx1
+C:   00000882  A$Lib.DHTx1HTx1$1660               Lib_DHTx1
+C:   00000884  A$Lib.DHTx1HTx1$1661               Lib_DHTx1
+C:   00000885  A$Lib.DHTx1HTx1$1662               Lib_DHTx1
+C:   00000886  A$Lib.DHTx1HTx1$1663               Lib_DHTx1
+C:   00000888  A$Lib.DHTx1HTx1$1664               Lib_DHTx1
+C:   00000889  A$Lib.DHTx1HTx1$1665               Lib_DHTx1
+C:   0000088B  A$Lib.DHTx1HTx1$1666               Lib_DHTx1
+C:   0000088D  A$Lib.DHTx1HTx1$1667               Lib_DHTx1
+C:   0000088F  A$Lib.DHTx1HTx1$1668               Lib_DHTx1
+C:   00000891  A$Lib.DHTx1HTx1$1669               Lib_DHTx1
+C:   00000894  A$Lib.DHTx1HTx1$1670               Lib_DHTx1
+C:   00000895  A$Lib.DHTx1HTx1$1671               Lib_DHTx1
+C:   00000897  A$Lib.DHTx1HTx1$1672               Lib_DHTx1
+C:   0000089A  A$Lib.DHTx1HTx1$1673               Lib_DHTx1
+C:   0000089D  A$Lib.DHTx1HTx1$1674               Lib_DHTx1
+C:   0000089F  A$Lib.DHTx1HTx1$1675               Lib_DHTx1
+C:   000008A1  A$Lib.DHTx1HTx1$1676               Lib_DHTx1
+C:   000008A3  A$Lib.DHTx1HTx1$1677               Lib_DHTx1
+C:   000008A6  A$Lib.DHTx1HTx1$1678               Lib_DHTx1
+C:   000008A9  A$Lib.DHTx1HTx1$1679               Lib_DHTx1
+C:   000008AC  A$Lib.DHTx1HTx1$1680               Lib_DHTx1
+C:   000008AE  A$Lib.DHTx1HTx1$1681               Lib_DHTx1
+C:   000008B0  A$Lib.DHTx1HTx1$1682               Lib_DHTx1
+C:   000008B2  A$Lib.DHTx1HTx1$1683               Lib_DHTx1
+C:   000008B4  A$Lib.DHTx1HTx1$1684               Lib_DHTx1
+C:   000008B6  A$Lib.DHTx1HTx1$1685               Lib_DHTx1
+C:   000008B7  A$Lib.DHTx1HTx1$1686               Lib_DHTx1
+C:   000008B8  A$Lib.DHTx1HTx1$1687               Lib_DHTx1
+C:   000008BA  A$Lib.DHTx1HTx1$1688               Lib_DHTx1
+C:   000008BB  A$Lib.DHTx1HTx1$1689               Lib_DHTx1
+C:   000008BD  A$Lib.DHTx1HTx1$1690               Lib_DHTx1
+ASxxxx Linker V03.00 + NoICE + sdld,  page 49.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000093    00000B1A =        2842. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000008BF  A$Lib.DHTx1HTx1$1691               Lib_DHTx1
+C:   000008C1  A$Lib.DHTx1HTx1$1692               Lib_DHTx1
+C:   000008C3  A$Lib.DHTx1HTx1$1693               Lib_DHTx1
+C:   000008C6  A$Lib.DHTx1HTx1$1694               Lib_DHTx1
+C:   000008C8  A$Lib.DHTx1HTx1$1695               Lib_DHTx1
+C:   000008CA  A$Lib.DHTx1HTx1$1696               Lib_DHTx1
+C:   000008CB  A$Lib.DHTx1HTx1$1697               Lib_DHTx1
+C:   000008CC  A$Lib.DHTx1HTx1$1698               Lib_DHTx1
+C:   000008CE  A$Lib.DHTx1HTx1$1699               Lib_DHTx1
+C:   000008CF  A$Lib.DHTx1HTx1$1700               Lib_DHTx1
+C:   000008D1  A$Lib.DHTx1HTx1$1701               Lib_DHTx1
+C:   000008D3  A$Lib.DHTx1HTx1$1702               Lib_DHTx1
+C:   000008D5  A$Lib.DHTx1HTx1$1703               Lib_DHTx1
+C:   000008D6  A$Lib.DHTx1HTx1$1704               Lib_DHTx1
+C:   000008D9  A$Lib.DHTx1HTx1$1705               Lib_DHTx1
+C:   000008DA  A$Lib.DHTx1HTx1$1706               Lib_DHTx1
+C:   000008DB  A$Lib.DHTx1HTx1$1707               Lib_DHTx1
+C:   000008DE  A$Lib.DHTx1HTx1$1708               Lib_DHTx1
+C:   000008E1  A$Lib.DHTx1HTx1$1712               Lib_DHTx1
+C:   000008E1  C$Lib.DHTx1.c$239$1_0$91           Lib_DHTx1
+C:   000008E4  A$Lib.DHTx1HTx1$1713               Lib_DHTx1
+C:   000008E6  A$Lib.DHTx1HTx1$1715               Lib_DHTx1
+C:   000008E9  A$Lib.DHTx1HTx1$1719               Lib_DHTx1
+C:   000008E9  C$Lib.DHTx1.c$241$2_0$93           Lib_DHTx1
+C:   000008EB  A$Lib.DHTx1HTx1$1720               Lib_DHTx1
+C:   000008ED  A$Lib.DHTx1HTx1$1721               Lib_DHTx1
+C:   000008EF  A$Lib.DHTx1HTx1$1722               Lib_DHTx1
+C:   000008F2  A$Lib.DHTx1HTx1$1723               Lib_DHTx1
+C:   000008F5  A$Lib.DHTx1HTx1$1724               Lib_DHTx1
+C:   000008F8  A$Lib.DHTx1HTx1$1725               Lib_DHTx1
+C:   000008FB  A$Lib.DHTx1HTx1$1726               Lib_DHTx1
+C:   000008FC  A$Lib.DHTx1HTx1$1727               Lib_DHTx1
+C:   000008FE  A$Lib.DHTx1HTx1$1728               Lib_DHTx1
+C:   00000900  A$Lib.DHTx1HTx1$1729               Lib_DHTx1
+C:   00000902  A$Lib.DHTx1HTx1$1730               Lib_DHTx1
+C:   00000903  A$Lib.DHTx1HTx1$1731               Lib_DHTx1
+C:   00000904  A$Lib.DHTx1HTx1$1732               Lib_DHTx1
+C:   00000906  A$Lib.DHTx1HTx1$1733               Lib_DHTx1
+C:   00000907  A$Lib.DHTx1HTx1$1734               Lib_DHTx1
+C:   00000909  A$Lib.DHTx1HTx1$1735               Lib_DHTx1
+C:   0000090B  A$Lib.DHTx1HTx1$1736               Lib_DHTx1
+C:   0000090D  A$Lib.DHTx1HTx1$1737               Lib_DHTx1
+C:   0000090F  A$Lib.DHTx1HTx1$1738               Lib_DHTx1
+C:   00000912  A$Lib.DHTx1HTx1$1739               Lib_DHTx1
+C:   00000914  A$Lib.DHTx1HTx1$1740               Lib_DHTx1
+C:   00000916  A$Lib.DHTx1HTx1$1741               Lib_DHTx1
+C:   00000917  A$Lib.DHTx1HTx1$1742               Lib_DHTx1
+C:   00000919  A$Lib.DHTx1HTx1$1743               Lib_DHTx1
+C:   0000091B  A$Lib.DHTx1HTx1$1744               Lib_DHTx1
+C:   0000091D  A$Lib.DHTx1HTx1$1745               Lib_DHTx1
+C:   0000091F  A$Lib.DHTx1HTx1$1746               Lib_DHTx1
+ASxxxx Linker V03.00 + NoICE + sdld,  page 50.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000093    00000B1A =        2842. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000920  A$Lib.DHTx1HTx1$1747               Lib_DHTx1
+C:   00000923  A$Lib.DHTx1HTx1$1748               Lib_DHTx1
+C:   00000924  A$Lib.DHTx1HTx1$1749               Lib_DHTx1
+C:   00000925  A$Lib.DHTx1HTx1$1750               Lib_DHTx1
+C:   00000928  A$Lib.DHTx1HTx1$1753               Lib_DHTx1
+C:   00000928  C$Lib.DHTx1.c$242$2_0$93           Lib_DHTx1
+C:   0000092A  A$Lib.DHTx1HTx1$1754               Lib_DHTx1
+C:   0000092C  A$Lib.DHTx1HTx1$1755               Lib_DHTx1
+C:   0000092E  A$Lib.DHTx1HTx1$1756               Lib_DHTx1
+C:   00000930  A$Lib.DHTx1HTx1$1757               Lib_DHTx1
+C:   00000932  A$Lib.DHTx1HTx1$1758               Lib_DHTx1
+C:   00000933  A$Lib.DHTx1HTx1$1759               Lib_DHTx1
+C:   00000934  A$Lib.DHTx1HTx1$1760               Lib_DHTx1
+C:   00000936  A$Lib.DHTx1HTx1$1761               Lib_DHTx1
+C:   00000937  A$Lib.DHTx1HTx1$1762               Lib_DHTx1
+C:   00000939  A$Lib.DHTx1HTx1$1763               Lib_DHTx1
+C:   0000093B  A$Lib.DHTx1HTx1$1764               Lib_DHTx1
+C:   0000093D  A$Lib.DHTx1HTx1$1765               Lib_DHTx1
+C:   0000093F  A$Lib.DHTx1HTx1$1766               Lib_DHTx1
+C:   00000942  A$Lib.DHTx1HTx1$1767               Lib_DHTx1
+C:   00000943  A$Lib.DHTx1HTx1$1768               Lib_DHTx1
+C:   00000945  A$Lib.DHTx1HTx1$1769               Lib_DHTx1
+C:   00000947  A$Lib.DHTx1HTx1$1770               Lib_DHTx1
+C:   00000949  A$Lib.DHTx1HTx1$1771               Lib_DHTx1
+C:   0000094A  A$Lib.DHTx1HTx1$1772               Lib_DHTx1
+C:   0000094B  A$Lib.DHTx1HTx1$1773               Lib_DHTx1
+C:   0000094D  A$Lib.DHTx1HTx1$1774               Lib_DHTx1
+C:   0000094E  A$Lib.DHTx1HTx1$1775               Lib_DHTx1
+C:   00000950  A$Lib.DHTx1HTx1$1776               Lib_DHTx1
+C:   00000952  A$Lib.DHTx1HTx1$1777               Lib_DHTx1
+C:   00000954  A$Lib.DHTx1HTx1$1778               Lib_DHTx1
+C:   00000956  A$Lib.DHTx1HTx1$1779               Lib_DHTx1
+C:   00000959  A$Lib.DHTx1HTx1$1780               Lib_DHTx1
+C:   0000095A  A$Lib.DHTx1HTx1$1781               Lib_DHTx1
+C:   0000095C  A$Lib.DHTx1HTx1$1782               Lib_DHTx1
+C:   0000095E  A$Lib.DHTx1HTx1$1783               Lib_DHTx1
+C:   0000095F  A$Lib.DHTx1HTx1$1784               Lib_DHTx1
+C:   00000961  A$Lib.DHTx1HTx1$1785               Lib_DHTx1
+C:   00000963  A$Lib.DHTx1HTx1$1786               Lib_DHTx1
+C:   00000965  A$Lib.DHTx1HTx1$1787               Lib_DHTx1
+C:   00000967  A$Lib.DHTx1HTx1$1788               Lib_DHTx1
+C:   00000968  A$Lib.DHTx1HTx1$1789               Lib_DHTx1
+C:   0000096B  A$Lib.DHTx1HTx1$1790               Lib_DHTx1
+C:   0000096C  A$Lib.DHTx1HTx1$1791               Lib_DHTx1
+C:   0000096D  A$Lib.DHTx1HTx1$1792               Lib_DHTx1
+C:   00000970  A$Lib.DHTx1HTx1$1798               Lib_DHTx1
+C:   00000970  C$Lib.DHTx1.c$244$1_0$91           Lib_DHTx1
+C:   00000970  XG$DHTx1_GetHumidityAndTemperatu   Lib_DHTx1
+C:   00000971  __uitoa                            _itoa
+C:   00000A7D  __itoa                             _itoa
+C:   00000AC0  __divuint                          _divuint
+ASxxxx Linker V03.00 + NoICE + sdld,  page 51.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000093    00000B1A =        2842. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000AE9  _memset                            _memset
+C:   00000B08  __gptrput                          _gptrput
+C:   00000B23  __mulint                           _mulint
+C:   00000B23  __mulint_dummy                     _mulint
+C:   00000B40  __moduint                          _moduint
+C:   00000B8D  __gptrget                          _gptrget
+C:   00000BA9  __sdcc_external_startup            _startup
+ASxxxx Linker V03.00 + NoICE + sdld,  page 52.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CONST                               00000BAD    0000000D =          13. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000BAD  Fmain$__str_0$0_0$0                main
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 53.
+
+Files Linked                              [ module(s) ]
+
+out/main.rel                              [  ]
+out/ser_ir.rel                            [  ]
+out/systimer.rel                          [  ]
+out/Lib.DHTx1.rel                         [  ]
+
+
+Libraries Linked                          [ object file ]
+
+E:\SoftWare\IDE\Complier\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ _itoa.rel ]
+E:\SoftWare\IDE\Complier\SDCC\bin\..\lib\small/libint.lib
+                                          [ _divuint.rel ]
+E:\SoftWare\IDE\Complier\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtclear.rel ]
+E:\SoftWare\IDE\Complier\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ _memset.rel ]
+E:\SoftWare\IDE\Complier\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtxinit.rel ]
+E:\SoftWare\IDE\Complier\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ _gptrput.rel ]
+E:\SoftWare\IDE\Complier\SDCC\bin\..\lib\small/libint.lib
+                                          [ _mulint.rel ]
+E:\SoftWare\IDE\Complier\SDCC\bin\..\lib\small/libint.lib
+                                          [ _moduint.rel ]
+E:\SoftWare\IDE\Complier\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtxclear.rel ]
+E:\SoftWare\IDE\Complier\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtpagesfr.rel ]
+E:\SoftWare\IDE\Complier\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtstart.rel ]
+E:\SoftWare\IDE\Complier\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ _gptrget.rel ]
+E:\SoftWare\IDE\Complier\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ _startup.rel ]
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 54.
+
+User Base Address Definitions
+
+HOME = 0x0000
+XSEG = 0x0001
+PSEG = 0x0001
+ISEG = 0x0000
+BSEG = 0x0000
+
+
